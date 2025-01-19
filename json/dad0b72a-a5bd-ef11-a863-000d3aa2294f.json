@@ -1,0 +1,1502 @@
+{
+    "metadata": {
+        "file_name": "dad0b72a-a5bd-ef11-a863-000d3aa2294f.xlsm",
+        "total_sheets": 2,
+        "sheet_names": [
+            "Library Procedures",
+            "상세분석"
+        ],
+        "sheets_info": {
+            "Library Procedures": {
+                "max_row": 196,
+                "max_column": 16,
+                "has_merged_cells": true,
+                "sheet_state": "visible"
+            },
+            "상세분석": {
+                "max_row": 24,
+                "max_column": 12,
+                "has_merged_cells": true,
+                "sheet_state": "visible"
+            }
+        },
+        "last_modified": "2025-01-19 15:42:48"
+    },
+    "sheets": {
+        "Library Procedures": [
+            {
+                "row_index": 0,
+                "content": {
+                    "B": {
+                        "value": "매출채권을 조회확인한다 (PwC Confirmations)\nConfirm accounts receivable (PwC Confirmations)",
+                        "coordinate": "B1"
+                    }
+                }
+            },
+            {
+                "row_index": 1,
+                "content": {
+                    "B": {
+                        "value": "Global Procedures & Results",
+                        "coordinate": "B2"
+                    },
+                    "I": {
+                        "value": "Links",
+                        "coordinate": "I2"
+                    },
+                    "K": {
+                        "value": "  Requirements  ",
+                        "coordinate": "K2"
+                    }
+                }
+            },
+            {
+                "row_index": 2,
+                "content": {
+                    "B": {
+                        "value": "조회에 대한 통제를 유지\nMaintain control over confirmations",
+                        "coordinate": "B3"
+                    }
+                }
+            },
+            {
+                "row_index": 4,
+                "content": {
+                    "B": {
+                        "value": "1.",
+                        "coordinate": "B5"
+                    },
+                    "C": {
+                        "value": "조회확인할 매출채권의 금액을 선택함.\nSelected accounts receivable amounts for confirmation.",
+                        "coordinate": "C5"
+                    },
+                    "K": {
+                        "value": "ISA 505.7",
+                        "coordinate": "K5"
+                    }
+                }
+            },
+            {
+                "row_index": 5,
+                "content": {
+                    "D": {
+                        "value": "매출채권 잔액 중에서 샘플을 선정하여 조회확인함 ('ToD form'을 추가함), 또는\nConfirmed a selection of accounts receivable amounts ('ToD form' added), or",
+                        "coordinate": "D6"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L6"
+                    }
+                }
+            },
+            {
+                "row_index": 6,
+                "content": {
+                    "D": {
+                        "value": "모든 매출채권 금액을 조회확인함.\nConfirmed all accounts receivable amounts",
+                        "coordinate": "D7"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L7"
+                    }
+                }
+            },
+            {
+                "row_index": 7,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L8"
+                    }
+                }
+            },
+            {
+                "row_index": 8,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C9"
+                    }
+                }
+            },
+            {
+                "row_index": 11,
+                "content": {
+                    "B": {
+                        "value": "2.",
+                        "coordinate": "B12"
+                    },
+                    "C": {
+                        "value": "다음의 각 절차를 수행하여 조회확인 절차에 대한 통제를 유지함:\nMaintained control over each of the following elements of the confirmation process:",
+                        "coordinate": "C12"
+                    },
+                    "K": {
+                        "value": "ISA 505.7",
+                        "coordinate": "K12"
+                    }
+                }
+            },
+            {
+                "row_index": 12,
+                "content": {
+                    "C": {
+                        "value": "",
+                        "coordinate": "C13"
+                    },
+                    "D": {
+                        "value": "조회서에 포함할 정보를 결정\nDetermined the information to be included in the confirmation",
+                        "coordinate": "D13"
+                    }
+                }
+            },
+            {
+                "row_index": 13,
+                "content": {
+                    "C": {
+                        "value": "",
+                        "coordinate": "C14"
+                    },
+                    "D": {
+                        "value": "적합한 조회확인 당사자를 선택 (예. 조회할 정보에 대하여 지식이 있다고 감사 engagement team 이 믿는 조회 대상자)\nSelected the appropriate confirming party (i.e., a confirmer the auditor engagement team believes is knowledgeable about the information to be confirmed)",
+                        "coordinate": "D14"
+                    }
+                }
+            },
+            {
+                "row_index": 15,
+                "content": {
+                    "E": {
+                        "value": "식별된 이슈사항이 없음, 또는\nNo issues identified, or",
+                        "coordinate": "E16"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L16"
+                    }
+                }
+            },
+            {
+                "row_index": 16,
+                "content": {
+                    "E": {
+                        "value": "식별된 이슈사항이 있음 (예. 적절한 조회대상을 식별하는 데 어려움이 있음)\nIssues identified (e.g., difficulties encountered in identifying the appropriate confirming party)",
+                        "coordinate": "E17"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L17"
+                    }
+                }
+            },
+            {
+                "row_index": 17,
+                "content": {
+                    "E": {
+                        "value": "세부내역을 문서화:\nDetails:",
+                        "coordinate": "E18"
+                    }
+                }
+            },
+            {
+                "row_index": 20,
+                "content": {
+                    "C": {
+                        "value": "",
+                        "coordinate": "C21"
+                    },
+                    "D": {
+                        "value": "다음의 각 절차 수행을 포함하여, 조회확인 절차를 설계:\nDesigned the confirmation, including performing each of the following:",
+                        "coordinate": "D21"
+                    }
+                }
+            },
+            {
+                "row_index": 21,
+                "content": {
+                    "D": {
+                        "value": "-",
+                        "coordinate": "D22"
+                    },
+                    "E": {
+                        "value": "PwC Confirmations에서 적절한 유형의 조회서 template을 선택함.\nSelected the appropriate confirmation type template within PwC Confirmations.",
+                        "coordinate": "E22"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L22"
+                    }
+                }
+            },
+            {
+                "row_index": 22,
+                "content": {
+                    "F": {
+                        "value": "선택한 template을 수정하지 않음, 또는\nNo customizations made to selected template, or",
+                        "coordinate": "F23"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L23"
+                    }
+                }
+            },
+            {
+                "row_index": 23,
+                "content": {
+                    "F": {
+                        "value": "선택한 template에 하나 이상의 수정사항을 반영함, 또는\nOne or more customizations made to selected template, or",
+                        "coordinate": "F24"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L24"
+                    }
+                }
+            },
+            {
+                "row_index": 24,
+                "content": {
+                    "F": {
+                        "value": "수정사항의 세부내역을 문서화:\nDetails of customizations:",
+                        "coordinate": "F25"
+                    }
+                }
+            },
+            {
+                "row_index": 27,
+                "content": {
+                    "F": {
+                        "value": "PwC Confirmation 내에 활용가능한 적절한 template이 없다고 판단하여, template을 생성하여 활용함.\nDetermined an appropriate template was not available within PwC Confirmations, so utilized a custom template",
+                        "coordinate": "F28"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L28"
+                    }
+                }
+            },
+            {
+                "row_index": 28,
+                "content": {
+                    "F": {
+                        "value": "세부내역(예. 활용된 template의 출처)을 문서화:\nDetails (e.g., source of template utilized):",
+                        "coordinate": "F29"
+                    }
+                }
+            },
+            {
+                "row_index": 31,
+                "content": {
+                    "D": {
+                        "value": "-",
+                        "coordinate": "D32"
+                    },
+                    "E": {
+                        "value": "조회확인 당사자 세부정보를 PwC Confirmations에 업로드하고, 조회확인 당사자 주소의 잠정적인 분류(시스템에서 1차적으로 ① Individual corporate email ② Group corporate email ③ Non-corporate email ④ Physical mailing Address ⑤ Post office box mailing address 중에서 자동분류)를 검토하여 다음을 식별함.\nUploaded the confirmer details to PwC Confirmations and reviewed the provisional categorization of confirmer addresses to identify:",
+                        "coordinate": "E32"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L32"
+                    }
+                }
+            },
+            {
+                "row_index": 32,
+                "content": {
+                    "E": {
+                        "value": "(a)",
+                        "coordinate": "E33"
+                    },
+                    "F": {
+                        "value": "잘못된 범주에 있는 것으로 보이는 주소 - 식별된 경우 적절하게 범주를 업데이트함, 또는\nAddresses that appear to be in the wrong category - where identified, updated the categorization, as appropriate, or",
+                        "coordinate": "F33"
+                    }
+                }
+            },
+            {
+                "row_index": 33,
+                "content": {
+                    "E": {
+                        "value": "(b)",
+                        "coordinate": "E34"
+                    },
+                    "F": {
+                        "value": "이메일 도메인에 조회확인 기업과 관련이 없는 것 처럼 보이는 정보가 포함되어 있거나, 주소의 적절성과 관련하여 의심을 불러일으키는 기타 비정상적인 요소로 인해 비정상적으로 보이는 주소\nAddresses that appear unusual either because the email domain contains information that makes it appear as though it may not be associated with the confirming entity(ies), or due to any other unusual elements of the address that raise doubts regarding appropriateness of the address",
+                        "coordinate": "F34"
+                    }
+                }
+            },
+            {
+                "row_index": 37,
+                "content": {
+                    "F": {
+                        "value": "Note - 비정상적인 주소가 식별되는 경우 주소가 적절한지 확인하기 위한 추가 절차를 수행함(예: 고객 문의 그리고 기업 웹사이트 조회, 확인 전화 등 후속 확인 절차).\nNote - Where any unusual addresses are identified, we perform further procedures to verify that the address is appropriate (e.g., inquiries of our client and subsequent verification procedures, such as reviewing corporate websites or telephoning the confirmer).",
+                        "coordinate": "F38"
+                    }
+                }
+            },
+            {
+                "row_index": 40,
+                "content": {
+                    "G": {
+                        "value": "비정상적인 조회확인 당사자 주소가 식별되지 않음, 또는\nNo unusual confirmer addresses identified, or",
+                        "coordinate": "G41"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L41"
+                    }
+                }
+            },
+            {
+                "row_index": 41,
+                "content": {
+                    "G": {
+                        "value": "하나 이상의 비정상적인 조회확인 당사자 주소가 식별됨.\nOne or more unusual confirmer addresses identified",
+                        "coordinate": "G42"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L42"
+                    }
+                }
+            },
+            {
+                "row_index": 42,
+                "content": {
+                    "G": {
+                        "value": "비정상적인 이메일 주소에 대한 세부 정보, 수행된 추가 절차 및 도달한 최종 결론을 문서화:\nDetails of unusual email addresses, further procedures performed and final conclusions reached:",
+                        "coordinate": "G43"
+                    }
+                }
+            },
+            {
+                "row_index": 45,
+                "content": {
+                    "D": {
+                        "value": "-",
+                        "coordinate": "D46"
+                    },
+                    "E": {
+                        "value": "주소 검증 절차 수행(PwC Confirmations 내에 문서화되고, Aura engagement database에 포함하기 위해 내보낸 데이터에 포함됨)\nPerformed address verification procedures (to be documented within PwC Confirmations and included in the data exported for inclusion in the Aura engagement database)",
+                        "coordinate": "E46"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L46"
+                    }
+                }
+            },
+            {
+                "row_index": 47,
+                "content": {
+                    "F": {
+                        "value": "(국내 해당사항 없음) 모든 요청이 Confirmation.com을 통해 \"in-network\" 응답자에게 보내지기 때문에 주소 검증 절차가 필요하지 않음.\nNo address verification procedures necessary as all requests are to be sent through Confirmation.com to \"in-network\" respondents, or",
+                        "coordinate": "F48"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L48"
+                    }
+                }
+            },
+            {
+                "row_index": 48,
+                "content": {
+                    "F": {
+                        "value": "주소 검증 절차를 수행함.\nAddress verification procedures performed",
+                        "coordinate": "F49"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L49"
+                    }
+                }
+            },
+            {
+                "row_index": 49,
+                "content": {
+                    "G": {
+                        "value": "예외사항이 확인되지 않음, 또는\nNo exceptions noted, or",
+                        "coordinate": "G50"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L50"
+                    }
+                }
+            },
+            {
+                "row_index": 50,
+                "content": {
+                    "G": {
+                        "value": "예외사항이 확인됨(예.나열된 조회확인 기업들에 대한 하나 이상의 주소에 대해 유효성을 성공적으로 검증할 수 없음).\nExceptions noted (i.e., unable to successfully verify the validity of one or more confirmer addresses for the listed confirmer entity(ies))",
+                        "coordinate": "G51"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L51"
+                    }
+                }
+            },
+            {
+                "row_index": 52,
+                "content": {
+                    "G": {
+                        "value": "예외사항에 대한 세부 정보와 외부 조회확인이나 감사계획에 미치는 영향(예: 대체 주소로 발송 및 기타 조회확인 요청에 미치는 영향)을 문서화:\nDetails of exceptions and impact on our external confirmation or audit plan (e.g., sending to an alternative address and any implications for other confirmation requests):",
+                        "coordinate": "G53"
+                    }
+                }
+            },
+            {
+                "row_index": 56,
+                "content": {
+                    "C": {
+                        "value": "",
+                        "coordinate": "C57"
+                    },
+                    "D": {
+                        "value": "적합한 검증 절차를 성공적으로 완료한 후 조회확인 요청서(고객의 authorization letters 포함)를 조회확인 당사자에게 직접 발송함.\nFollowing successful completion of appropriate verification procedures, sent the confirmation requests (including any client authorization letters) directly to the confirming parties",
+                        "coordinate": "D57"
+                    }
+                }
+            },
+            {
+                "row_index": 58,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L59"
+                    }
+                }
+            },
+            {
+                "row_index": 59,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C60"
+                    }
+                }
+            },
+            {
+                "row_index": 62,
+                "content": {
+                    "B": {
+                        "value": "3.",
+                        "coordinate": "B63"
+                    },
+                    "C": {
+                        "value": "경영진이 조회서 발송을 거부하는 경우, 추가적인 절차를 수행함.\nWhen management refuses to allow confirmations to be sent, performed additional procedures.",
+                        "coordinate": "C63"
+                    },
+                    "K": {
+                        "value": "ISA 505.8",
+                        "coordinate": "K63"
+                    }
+                }
+            },
+            {
+                "row_index": 63,
+                "content": {
+                    "D": {
+                        "value": "해당사항 없음 - 경영진이 조회서 발송을 거부하지 않음, 또는\nNot applicable - no refusal, or",
+                        "coordinate": "D64"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L64"
+                    }
+                }
+            },
+            {
+                "row_index": 64,
+                "content": {
+                    "D": {
+                        "value": "경영진이 조회서 발송을 거부함.\nManagement refused to allow confirmations to be sent",
+                        "coordinate": "D65"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L65"
+                    }
+                }
+            },
+            {
+                "row_index": 65,
+                "content": {
+                    "D": {
+                        "value": "다음의 각 절차를 수행함:_x000D__x000D_\nPerformed each of the following:",
+                        "coordinate": "D66"
+                    }
+                }
+            },
+            {
+                "row_index": 66,
+                "content": {
+                    "D": {
+                        "value": "",
+                        "coordinate": "D67"
+                    },
+                    "E": {
+                        "value": "경영진의 거부 사유에 관하여 경영진과 인터뷰함.\nInquired with management as to the rationale for management's refusal",
+                        "coordinate": "E67"
+                    }
+                }
+            },
+            {
+                "row_index": 67,
+                "content": {
+                    "D": {
+                        "value": "",
+                        "coordinate": "D68"
+                    },
+                    "E": {
+                        "value": "경영진이 거부하는 경우 관련된 상황의 합리성에 대한 증거를 입수하고 평가함.\nObtained evidence and evaluated the reasonableness of the circumstances surrounding management's refusal",
+                        "coordinate": "E68"
+                    }
+                }
+            },
+            {
+                "row_index": 68,
+                "content": {
+                    "D": {
+                        "value": "",
+                        "coordinate": "D69"
+                    },
+                    "E": {
+                        "value": "위험평가 및 감사계획에 미치는 영향을 평가함.\nAssessed implications on risk assessment and audit plan",
+                        "coordinate": "E69"
+                    }
+                }
+            },
+            {
+                "row_index": 69,
+                "content": {
+                    "D": {
+                        "value": "",
+                        "coordinate": "D70"
+                    },
+                    "E": {
+                        "value": "대체적 감사절차를 수행함.\nPerformed alternative audit procedures",
+                        "coordinate": "E70"
+                    }
+                }
+            },
+            {
+                "row_index": 70,
+                "content": {
+                    "D": {
+                        "value": "세부내역을 문서화(예, 인터뷰 대상자의 이름과 인터뷰 일자, 평가 내용, 수행한 대체적 절차):\nDetails (e.g., name and date of inquiries, assessment made, alternative procedures performed):",
+                        "coordinate": "D71"
+                    }
+                }
+            },
+            {
+                "row_index": 73,
+                "content": {
+                    "E": {
+                        "value": "경영진의 거부 요청이 타당하고 신뢰성 있는 감사증거를 입수함, 또는\nManagement's refusal request was reasonable and reliable audit evidence was obtained, or",
+                        "coordinate": "E74"
+                    },
+                    "K": {
+                        "value": "ISA 505.9",
+                        "coordinate": "K74"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L74"
+                    }
+                }
+            },
+            {
+                "row_index": 74,
+                "content": {
+                    "E": {
+                        "value": "경영진의 거청이 타당하지 않거나 신뢰성 있는 감사증거를 입수할 수 없음.\nManagement's refusal was not reasonable or reliable audit evidence could not be obtained",
+                        "coordinate": "E75"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L75"
+                    }
+                }
+            },
+            {
+                "row_index": 75,
+                "content": {
+                    "E": {
+                        "value": "다음의 각 절차를 수행함:_x000D__x000D_\nPerformed each of the following:",
+                        "coordinate": "E76"
+                    }
+                }
+            },
+            {
+                "row_index": 76,
+                "content": {
+                    "E": {
+                        "value": "",
+                        "coordinate": "E77"
+                    },
+                    "F": {
+                        "value": "지배기구와 커뮤니케이션을 수행함.\nCommunicated to those charged with governance",
+                        "coordinate": "F77"
+                    }
+                }
+            },
+            {
+                "row_index": 77,
+                "content": {
+                    "E": {
+                        "value": "",
+                        "coordinate": "E78"
+                    },
+                    "F": {
+                        "value": "감사보고서에 미치는 영향을 확인함.\nDetermined the implications for the audit report",
+                        "coordinate": "F78"
+                    }
+                }
+            },
+            {
+                "row_index": 78,
+                "content": {
+                    "E": {
+                        "value": "세부내역을 문서화(예, 커뮤니케이션 내역, 보고서 수정사항), 또는 관련 링크를 첨부:\nDetails (e.g., communications, modifications to report), or provided link:",
+                        "coordinate": "E79"
+                    }
+                }
+            },
+            {
+                "row_index": 80,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L81"
+                    }
+                }
+            },
+            {
+                "row_index": 81,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C82"
+                    }
+                }
+            },
+            {
+                "row_index": 84,
+                "content": {
+                    "B": {
+                        "value": "회신을 평가함\nEvaluate responses",
+                        "coordinate": "B85"
+                    }
+                }
+            },
+            {
+                "row_index": 86,
+                "content": {
+                    "B": {
+                        "value": "4.",
+                        "coordinate": "B87"
+                    },
+                    "C": {
+                        "value": "PwC Confirmations 외부에서 전자적으로 수신된 조회확인(예: 팩스, 이메일)에 대한 조회확인 응답의 신뢰성/진위성을 평가하기 위한 절차를 수행함.\nPerformed procedures to evaluate the reliability/authenticity of confirmation responses for confirmations received electronically (e.g., fax, email) outside of PwC Confirmations.",
+                        "coordinate": "C87"
+                    },
+                    "K": {
+                        "value": "ISA 505.10-11",
+                        "coordinate": "K87"
+                    }
+                }
+            },
+            {
+                "row_index": 89,
+                "content": {
+                    "D": {
+                        "value": "해당 없음 - PwC Confirmations 외부에서 전자적으로 수신된 응답 없음, 또는\nNot applicable - no responses received electronically outside of PwC Confirmations, or",
+                        "coordinate": "D90"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L90"
+                    }
+                }
+            },
+            {
+                "row_index": 90,
+                "content": {
+                    "D": {
+                        "value": "PwC Confirmations 외부에서 전자적으로 회신받음.\nResponses received electronically outside of PwC Confirmations",
+                        "coordinate": "D91"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L91"
+                    }
+                }
+            },
+            {
+                "row_index": 91,
+                "content": {
+                    "E": {
+                        "value": "PwC Confirmations 내 절차들을 문서화함('Assess reliability' dialog), 또는\nDocumented procedures within PwC Confirmations ('Assess reliability' dialog), or",
+                        "coordinate": "E92"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L92"
+                    }
+                }
+            },
+            {
+                "row_index": 92,
+                "content": {
+                    "E": {
+                        "value": "탭 'Authenticity verification'에 문서화함.\nDocumented in tab 'Authenticity verification' ",
+                        "coordinate": "E93"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L93"
+                    }
+                }
+            },
+            {
+                "row_index": 93,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L94"
+                    }
+                }
+            },
+            {
+                "row_index": 94,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C95"
+                    }
+                }
+            },
+            {
+                "row_index": 97,
+                "content": {
+                    "B": {
+                        "value": "5.",
+                        "coordinate": "B98"
+                    },
+                    "C": {
+                        "value": "회신된 각 조회확인에 대하여, 잔액을 대사하고, 차이를 조사하고 조회서에 포함된 기타 정보의 감사에 미치는 영향을 평가함.\nFor each confirmation received, agreed balances, investigated discrepancies and assessed audit implications of other information included on the confirmation.",
+                        "coordinate": "C98"
+                    },
+                    "K": {
+                        "value": "ISA 505.14",
+                        "coordinate": "K98"
+                    }
+                }
+            },
+            {
+                "row_index": 100,
+                "content": {
+                    "C": {
+                        "value": "Note - 조회확인 회신을 평가할 때 제공된 모든 정보(예: 조회확인 당사자의 추가 정보 요청 및 감사인의 재조회확인 요청과 관련하여 감사인과 조회확인 당사가 간의 첨부파일과 코멘트)를 완전히 이해하여야 함.\nNote - When evaluating confirmation responses, obtain a complete understanding of all information provided (e.g., attachments, comments between the auditor and confirmer in connection with confirmer requests for additional information and auditor reconfirmation requests)",
+                        "coordinate": "C101"
+                    }
+                }
+            },
+            {
+                "row_index": 103,
+                "content": {
+                    "D": {
+                        "value": "제공된 링크에 동 EGA에 포함된 PwC Confirmation에서 내보낸 탭 'PwC Confirmations Result'에 문서화된 사항들을 테스트함.\nTesting documented in the tab 'PwC Confirmations Results' exported from PwC Confirmations included within this EGA at provided link",
+                        "coordinate": "D104"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L104"
+                    }
+                }
+            },
+            {
+                "row_index": 104,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L105"
+                    }
+                }
+            },
+            {
+                "row_index": 105,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C106"
+                    }
+                }
+            },
+            {
+                "row_index": 108,
+                "content": {
+                    "B": {
+                        "value": "6.",
+                        "coordinate": "B109"
+                    },
+                    "C": {
+                        "value": "회수 방법과 무관하게, 모든 조회 회신을 검토하여 회신을 신뢰할 수 없는 징후가 있는지 확인함.\nEvaluated all confirmation responses, irrespective of the format of receipt, to determine whether there are indications the response may not be reliable.",
+                        "coordinate": "C109"
+                    },
+                    "K": {
+                        "value": "ISA 505.10-11",
+                        "coordinate": "K109"
+                    }
+                }
+            },
+            {
+                "row_index": 111,
+                "content": {
+                    "C": {
+                        "value": "Note - 회신이 신뢰할 수 없는 예시는 다음과 같음:\n- 감사인이 직접 조회확인을 받지 못한 경우\n- 조회확인이 원래 의도한 조회확인 당사자로부터 온 것이 아님.\n- 전자문서가 변경할 수 없는 PDF 형식이 아님.\n- 예상과 일치하지 않는 원본 이메일 주소 또는 팩스 세부정보\n- 조회확인이 감사인에게 직접 전달(hand delivered)됨.\nNote - Examples of indications that the response may not be reliable include the following:\n- Confirmation was not received directly by the auditor\n- Confirmation appears not to come from the originally intended confirming party\n- Electronic documents are not in an unalterable PDF format\n- Source email address or facsimile details inconsistent with expectations\n- Confirmation is hand delivered to the auditor",
+                        "coordinate": "C112"
+                    }
+                }
+            },
+            {
+                "row_index": 118,
+                "content": {
+                    "D": {
+                        "value": "회신이 신뢰할 수 없다는 징후가 식별되지 않음, 또는\nNo indicators that the responses may not be reliable identified, or",
+                        "coordinate": "D119"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L119"
+                    }
+                }
+            },
+            {
+                "row_index": 119,
+                "content": {
+                    "D": {
+                        "value": "회신이 신뢰할 수 없다는 징후를 식별함 - 다음과 같이 우려 사항을 해결하기 위한 절차와 수행한 절차를 문서화함:\nIndicators that the responses may not be reliable identified - performed procedures to address concerns and documented procedures as follows:",
+                        "coordinate": "D120"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L120"
+                    }
+                }
+            },
+            {
+                "row_index": 120,
+                "content": {
+                    "E": {
+                        "value": "PwC Confirmations 내 절차들을 문서화함('Assess reliability' dialog), 또는\nDocumented procedures within PwC Confirmations ('Assess reliability' dialog), or",
+                        "coordinate": "E121"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L121"
+                    }
+                }
+            },
+            {
+                "row_index": 121,
+                "content": {
+                    "E": {
+                        "value": "탭 'Authenticity verification'에 문서화함.\nDocumented in tab 'Authenticity verification' ",
+                        "coordinate": "E122"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L122"
+                    }
+                }
+            },
+            {
+                "row_index": 122,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L123"
+                    }
+                }
+            },
+            {
+                "row_index": 123,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C124"
+                    }
+                }
+            },
+            {
+                "row_index": 126,
+                "content": {
+                    "B": {
+                        "value": "7.",
+                        "coordinate": "B127"
+                    },
+                    "C": {
+                        "value": "Engagement team의 적합한 구성원과 논의을 통해서 group corporate 이메일 계정에서 조회확인 응답을 받은 후 PwC Confirmations에서 보낸 \"Authorized respondent\" 이메일로 응답이 회신되는지 확인하고, 응답을 받은 경우 적합한 후속 절차를 수행함.\nDetermined, through discussions with the appropriate members of the engagement team, whether any responses had been received to the \"Authorized respondent\" email sent by PwC Confirmations following receipt of a confirmation response from a group corporate email account and, where a response was received, performed appropriate follow-up procedures.",
+                        "coordinate": "C127"
+                    },
+                    "K": {
+                        "value": "ISA 505.10-11",
+                        "coordinate": "K127"
+                    }
+                }
+            },
+            {
+                "row_index": 130,
+                "content": {
+                    "C": {
+                        "value": "Note - 그룹 이메일 계정에 대한 공유 접근 위험에 대응하기 위해서, 조회확인자가 그룹 이메일 주소를 활용하여 조회확인에 회신하고 나면 표준 이메일(\"Authorized respondent\" 이메일이라고 함)이 PwC Confirmations에서 그룹 이메일 주소로 전송됨. 이 이메일은 이메일 계정에 대한 접근 권한이 있는 모든 개인이 볼 수 있으며, 그룹 이메일 주소 사용자에게 PwC engagement team이 해당 주소에서 조회확인을 수신했음을 알리고 조회확인 응답을 제공한 개인이 입력한 이름을 나타냄. 조회확인 응답 이메일은 그룹 이메일 주소의 모든 사용자에게 조회확인에 응답한 조회확인 당사자의 적절성에 대한 질문이나 우려사항이 있는 경우 PwC engagement team에 연락하도록 안내함. 이러한 응답은 외부 조회확인을 개시한 PwC 담당자와 연결된 Aura engagement database의 Access Control List에 포함된 첫 번째 engagement leader 및 engagement manager에게 자동으로 직접 전달됨. 자세한 내용은 PwC Audit 6202.7을 참조하고, 필요한 경우 engagement team의 상위 팀원과 논의함.\nNote - As a safeguard responsive to the risk of shared access to group email accounts, following the submission of a confirmation response by a confirmer using a group email address, a standard email (referred to as an “Authorized respondent\" email) is sent by PwC Confirmations to the group email address. This email is viewable by all individuals with access to the email account and advises users of the group email address that the PwC engagement team has received a confirmation from that address and indicates the name entered by the individual that provided the confirmation response. The email directs any users of the group email address with questions or concerns about the appropriateness of the confirming party that responded to the confirmation to contact the PwC engagement team. Any such response is automatically routed directly to the PwC Contact that initiated the external confirmation exercise and also the first engagement leader and engagement manager included on the Access Control List for the associated Aura engagement database.  Refer to PwC Audit 6202.7 for additional details and discuss with senior members of the engagement team, as appropriate.",
+                        "coordinate": "C131"
+                    }
+                }
+            },
+            {
+                "row_index": 139,
+                "content": {
+                    "D": {
+                        "value": "해당 없음 - group corporate 이메일 계정으로부터 회신된 조회확인 응답이 없음, 또는\nNot applicable - no confirmation responses received from group corporate email accounts, or",
+                        "coordinate": "D140"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L140"
+                    }
+                }
+            },
+            {
+                "row_index": 140,
+                "content": {
+                    "D": {
+                        "value": "group corporate 이메일 계정으로부터 회신된 조회확인 응답이 존재함.\nConfirmation response(s) received from group corporate email account(s)",
+                        "coordinate": "D141"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L141"
+                    }
+                }
+            },
+            {
+                "row_index": 141,
+                "content": {
+                    "E": {
+                        "value": "\"Authorized respondent\" 이메일에 대한 응답이 회신되지 않음, 또는\nNo responses to the \"Authorized respondent\" email received, or",
+                        "coordinate": "E142"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L142"
+                    }
+                }
+            },
+            {
+                "row_index": 142,
+                "content": {
+                    "E": {
+                        "value": "\"Authorized respondent\" 이메일에 대한 하나 이상의 응답이 회신됨.\nOne or more responses to the \"Authorized respondent\" email received",
+                        "coordinate": "E143"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L143"
+                    }
+                }
+            },
+            {
+                "row_index": 143,
+                "content": {
+                    "E": {
+                        "value": "다음의 각 절차를 수행함:\nPerformed each of the following:",
+                        "coordinate": "E144"
+                    }
+                }
+            },
+            {
+                "row_index": 144,
+                "content": {
+                    "E": {
+                        "value": "",
+                        "coordinate": "E145"
+                    },
+                    "F": {
+                        "value": "입수한 회신에 대한 세부정보를 문서화하고, document library에 회신 사본에 대한 링크를 제공함.\nDocumented details of the response(s) received and provided link to copy of response added to document library",
+                        "coordinate": "F145"
+                    }
+                }
+            },
+            {
+                "row_index": 145,
+                "content": {
+                    "F": {
+                        "value": "입수한 회신의 세부정보:\nDetails of response(s) received:",
+                        "coordinate": "F146"
+                    }
+                }
+            },
+            {
+                "row_index": 148,
+                "content": {
+                    "E": {
+                        "value": "",
+                        "coordinate": "E149"
+                    },
+                    "F": {
+                        "value": "조회확인 응답의 신뢰성을 검증하기 위해 적절한 후속 절차를 수행하고, 부정위험의 징후가 있는지 여부를 고려하며 식별된 위험에 대응하기 위해 적절한 추가 감사 절차를 수행함.\nPerformed appropriate follow-up procedures to verify the reliability of the confirmation response and considered whether there are indications of a fraud risk and, if so, performed appropriate further audit procedures to respond to the identified risks",
+                        "coordinate": "F149"
+                    }
+                }
+            },
+            {
+                "row_index": 150,
+                "content": {
+                    "F": {
+                        "value": "수행된 후속 절차 및 도달한 결론에 대한 세부 정보를 문서화:\nDetails of follow-up procedures performed and conclusions reached:",
+                        "coordinate": "F151"
+                    }
+                }
+            },
+            {
+                "row_index": 153,
+                "content": {
+                    "E": {
+                        "value": "Note - 수행된 후속 절차의 결과로 얻은 증거가 부정이 발생할 수 있음을 나타내는 경우 EGA 'Investigate situations where evidence indicates a fraud may have occurred'를 추가함.\nNote - If the evidence obtained as a result of the follow-up procedures performed indicates a fraud may have occurred, add the EGA 'Investigate situations where evidence indicates a fraud may have occurred’.",
+                        "coordinate": "E154"
+                    }
+                }
+            },
+            {
+                "row_index": 157,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L158"
+                    }
+                }
+            },
+            {
+                "row_index": 158,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C159"
+                    }
+                }
+            },
+            {
+                "row_index": 161,
+                "content": {
+                    "B": {
+                        "value": "8.",
+                        "coordinate": "B162"
+                    },
+                    "C": {
+                        "value": "회신되지 않은 건에 대하여 대체적 절차를 수행함.\nPerformed alternative procedures for each non-response.",
+                        "coordinate": "C162"
+                    },
+                    "K": {
+                        "value": "ISA 505.12",
+                        "coordinate": "K162"
+                    }
+                }
+            },
+            {
+                "row_index": 162,
+                "content": {
+                    "D": {
+                        "value": "해당 사항 없음 - 모든 조회서는 회수됨, 또는\nNot applicable - all requested confirmations were received, or",
+                        "coordinate": "D163"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L163"
+                    }
+                }
+            },
+            {
+                "row_index": 163,
+                "content": {
+                    "D": {
+                        "value": "탭 'Alternative procedures' 또는 첨부된 링크에서 수행함.\nCompleted in tab 'Alternative procedures' or provided link",
+                        "coordinate": "D164"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L164"
+                    }
+                }
+            },
+            {
+                "row_index": 164,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L165"
+                    }
+                }
+            },
+            {
+                "row_index": 165,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C166"
+                    }
+                }
+            },
+            {
+                "row_index": 168,
+                "content": {
+                    "B": {
+                        "value": "9.",
+                        "coordinate": "B169"
+                    },
+                    "C": {
+                        "value": "PwC Confirmations에서 조회확인 결과를 추출하여 Aura engagement database에 포함함.\nExported the confirmation results from PwC Confirmations and included in the Aura engagement database.",
+                        "coordinate": "C169"
+                    },
+                    "K": {
+                        "value": "ISA 505.16",
+                        "coordinate": "K169"
+                    }
+                }
+            },
+            {
+                "row_index": 169,
+                "content": {
+                    "D": {
+                        "value": "동 EGA로 추출된 결과들과 관련 항목들(예: authorization letters, 감사인의 첨부파일, control copies, 조회확인 당사자의 응답, 조회확인 당사자의 첨부파일)을 제공된 링크의 document library에 포함함.\nExported results to this EGA and related items (e.g., authorization letters, auditor attachments, control copies, confirmer response, confirmer attachments) included in document library at provided link",
+                        "coordinate": "D170"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L170"
+                    }
+                }
+            },
+            {
+                "row_index": 171,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L172"
+                    }
+                }
+            },
+            {
+                "row_index": 172,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C173"
+                    }
+                }
+            },
+            {
+                "row_index": 175,
+                "content": {
+                    "B": {
+                        "value": "10.",
+                        "coordinate": "B176"
+                    },
+                    "C": {
+                        "value": "외부 조회 절차의 결과가 적절하고 신뢰할만한 감사 증거를 제공하는 지 혹은 추가 감사 증거가 필요한 지 평가함.\nEvaluated whether the results of the external confirmation procedures provide relevant and reliable audit evidence, or whether further audit evidence is necessary.",
+                        "coordinate": "C176"
+                    },
+                    "K": {
+                        "value": "ISA 505.13, 16",
+                        "coordinate": "K176"
+                    }
+                }
+            },
+            {
+                "row_index": 177,
+                "content": {
+                    "D": {
+                        "value": "적절하고 신뢰할만한 감사 증거가 입수됨, 또는\nDetermined that relevant and reliable audit evidence has been obtained, or",
+                        "coordinate": "D178"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L178"
+                    }
+                }
+            },
+            {
+                "row_index": 178,
+                "content": {
+                    "D": {
+                        "value": "추가 감사 증거가 필요하다고 판단됨.\nDetermined further audit evidence is necessary",
+                        "coordinate": "D179"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L179"
+                    }
+                }
+            },
+            {
+                "row_index": 179,
+                "content": {
+                    "D": {
+                        "value": "세부내역 및 결정 사항:\nDetails and resolution:",
+                        "coordinate": "D180"
+                    }
+                }
+            },
+            {
+                "row_index": 182,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L183"
+                    }
+                }
+            },
+            {
+                "row_index": 183,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C184"
+                    }
+                }
+            },
+            {
+                "row_index": 188,
+                "content": {
+                    "B": {
+                        "value": "Territory Supplemental Procedures & Results",
+                        "coordinate": "B189"
+                    },
+                    "I": {
+                        "value": "Links",
+                        "coordinate": "I189"
+                    },
+                    "K": {
+                        "value": "Requirements",
+                        "coordinate": "K189"
+                    }
+                }
+            }
+        ],
+        "상세분석": [
+            {
+                "row_index": 0,
+                "content": {
+                    "B": {
+                        "value": "[Optional Template]",
+                        "coordinate": "B1"
+                    }
+                }
+            },
+            {
+                "row_index": 2,
+                "content": {
+                    "B": {
+                        "value": "거래처별 증감분석 및 회수기일 상세분석",
+                        "coordinate": "B3"
+                    }
+                }
+            },
+            {
+                "row_index": 4,
+                "content": {
+                    "B": {
+                        "value": "거래처명",
+                        "coordinate": "B5"
+                    },
+                    "C": {
+                        "value": "대금회수조건㈜",
+                        "coordinate": "C5"
+                    },
+                    "D": {
+                        "value": "당기",
+                        "coordinate": "D5"
+                    },
+                    "G": {
+                        "value": "전기",
+                        "coordinate": "G5"
+                    },
+                    "J": {
+                        "value": "증감",
+                        "coordinate": "J5"
+                    },
+                    "K": {
+                        "value": "증감율",
+                        "coordinate": "K5"
+                    },
+                    "L": {
+                        "value": "증감원인",
+                        "coordinate": "L5"
+                    }
+                }
+            },
+            {
+                "row_index": 5,
+                "content": {
+                    "D": {
+                        "value": "매출",
+                        "coordinate": "D6"
+                    },
+                    "E": {
+                        "value": "매출채권",
+                        "coordinate": "E6"
+                    },
+                    "F": {
+                        "value": "회수기일",
+                        "coordinate": "F6"
+                    },
+                    "G": {
+                        "value": "매출",
+                        "coordinate": "G6"
+                    },
+                    "H": {
+                        "value": "매출채권",
+                        "coordinate": "H6"
+                    },
+                    "I": {
+                        "value": "회수기일",
+                        "coordinate": "I6"
+                    }
+                }
+            },
+            {
+                "row_index": 6,
+                "content": {
+                    "L": {
+                        "value": "*1",
+                        "coordinate": "L7"
+                    }
+                }
+            },
+            {
+                "row_index": 7,
+                "content": {
+                    "L": {
+                        "value": "*2",
+                        "coordinate": "L8"
+                    }
+                }
+            },
+            {
+                "row_index": 8,
+                "content": {
+                    "L": {
+                        "value": "*3",
+                        "coordinate": "L9"
+                    }
+                }
+            },
+            {
+                "row_index": 9,
+                "content": {
+                    "L": {
+                        "value": "*4",
+                        "coordinate": "L10"
+                    }
+                }
+            },
+            {
+                "row_index": 12,
+                "content": {
+                    "B": {
+                        "value": "합계",
+                        "coordinate": "B13"
+                    }
+                }
+            },
+            {
+                "row_index": 13,
+                "content": {
+                    "B": {
+                        "value": "㈜: EGA Understand and evaluate accounting policies - Revenu(회계정책을 이해하고 평가한다 - 매출) 상의 내용을 기재",
+                        "coordinate": "B14"
+                    }
+                }
+            },
+            {
+                "row_index": 15,
+                "content": {
+                    "B": {
+                        "value": "*1",
+                        "coordinate": "B16"
+                    }
+                }
+            },
+            {
+                "row_index": 16,
+                "content": {
+                    "B": {
+                        "value": "*2",
+                        "coordinate": "B17"
+                    }
+                }
+            },
+            {
+                "row_index": 17,
+                "content": {
+                    "B": {
+                        "value": "*3",
+                        "coordinate": "B18"
+                    }
+                }
+            },
+            {
+                "row_index": 18,
+                "content": {
+                    "B": {
+                        "value": "*4",
+                        "coordinate": "B19"
+                    }
+                }
+            },
+            {
+                "row_index": 20,
+                "content": {
+                    "B": {
+                        "value": "(결론)",
+                        "coordinate": "B21"
+                    }
+                }
+            },
+            {
+                "row_index": 21,
+                "content": {
+                    "B": {
+                        "value": "상기에서 발견된 XXXX한 요인은 기존의 매출 및 매출채권 프로세스에 대한 이해, 또는 XXX 계정에서 확인된 사항과 일관되지 않으므로, ",
+                        "coordinate": "B22"
+                    }
+                }
+            },
+            {
+                "row_index": 22,
+                "content": {
+                    "B": {
+                        "value": "Risk-based target 으로 선정하여 테스트 항목에 포함하기로 함",
+                        "coordinate": "B23"
+                    }
+                }
+            },
+            {
+                "row_index": 23,
+                "content": {
+                    "B": {
+                        "value": "W/P XXXX 참조",
+                        "coordinate": "B24"
+                    }
+                }
+            }
+        ]
+    }
+}
