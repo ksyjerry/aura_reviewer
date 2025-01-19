@@ -1,6 +1,7 @@
 import os
 import requests
 import yaml
+import json
 import urllib3
 from typing import List, Dict, Any
 
@@ -102,15 +103,19 @@ class PwcEmbeddings(Embeddings):
 ###################################################
 # RAG 예시 함수
 ###################################################
-def build_vector_store(ai_rcm_list: List[Dict[str, Any]],
-                       embedding_model=None,
-                       persist_directory: str = None) -> FAISS:
+def build_vector_store(json_data: Dict[str, Any],
+                      embedding_model=None,
+                      persist_directory: str = None,
+                      chunk_size: int = 10000,
+                      chunk_overlap: int = 1000
+                      ) -> FAISS:
     """
-    주어진 AI_RCM 목록을 벡터 스토어에 저장.
+    JSON 문서를 벡터 스토어에 저장
+    Args:
+        chunk_size: 각 청크의 최대 문자 수
+        chunk_overlap: 청크 간 중복되는 문자 수
     """
     if embedding_model is None:
-        # 예: v1/embeddings 를 사용하는 URL
-        # PWC_MODEL 안에 'openai_embedding' 항목이 있다면 사용
         default_model_name = PWC_MODEL.get("openai_embedding")
         embedding_model = PwcEmbeddings(
             api_url="https://ngc-genai-proxy-stage.pwcinternal.com/v1/embeddings",
@@ -120,24 +125,63 @@ def build_vector_store(ai_rcm_list: List[Dict[str, Any]],
 
     try:
         docs_for_db = []
-        for rcm_data in ai_rcm_list:
-            content_str = "\n".join(filter(None, [
-                rcm_data.get("process_name", ""),
-                rcm_data.get("subprocess_name", ""),
-                rcm_data.get("risk_description", ""),
-                rcm_data.get("control_title", ""),
-                rcm_data.get("control_description", ""),
-            ]))
+        current_chunk = ""
+        current_metadata = {}
+        
+        def process_json(data, path=""):
+            nonlocal current_chunk, current_metadata
+            
+            if isinstance(data, dict):
+                for key, value in data.items():
+                    new_path = f"{path}.{key}" if path else key
+                    if isinstance(value, (dict, list)):
+                        process_json(value, new_path)
+                    else:
+                        content = f"{new_path}: {str(value)}\n"
+                        if len(current_chunk) + len(content) > chunk_size:
+                            # 현재 청크가 최대 크기를 초과하면 새로운 Document 생성
+                            if current_chunk:
+                                docs_for_db.append(Document(
+                                    page_content=current_chunk,
+                                    metadata=current_metadata.copy()
+                                ))
+                            current_chunk = content
+                            current_metadata = {"paths": [new_path], "values": [str(value)]}
+                        else:
+                            current_chunk += content
+                            current_metadata.setdefault("paths", []).append(new_path)
+                            current_metadata.setdefault("values", []).append(str(value))
+                            
+            elif isinstance(data, list):
+                for idx, item in enumerate(data):
+                    new_path = f"{path}[{idx}]"
+                    if isinstance(item, (dict, list)):
+                        process_json(item, new_path)
+                    else:
+                        content = f"{new_path}: {str(item)}\n"
+                        if len(current_chunk) + len(content) > chunk_size:
+                            if current_chunk:
+                                docs_for_db.append(Document(
+                                    page_content=current_chunk,
+                                    metadata=current_metadata.copy()
+                                ))
+                            current_chunk = content
+                            current_metadata = {"paths": [new_path], "values": [str(item)]}
+                        else:
+                            current_chunk += content
+                            current_metadata.setdefault("paths", []).append(new_path)
+                            current_metadata.setdefault("values", []).append(str(item))
 
-            metadata = {
-                "control_code": rcm_data.get("control_code", "unknown_code"),
-                "rcm_data": rcm_data
-            }
-
-            doc = Document(page_content=content_str, metadata=metadata)
-            docs_for_db.append(doc)
-
-        print(f"[build_vector_store] 총 {len(docs_for_db)}개의 문서를 임베딩합니다...")
+        process_json(json_data)
+        
+        # 마지막 청크 처리
+        if current_chunk:
+            docs_for_db.append(Document(
+                page_content=current_chunk,
+                metadata=current_metadata
+            ))
+        
+        print(f"[build_vector_store] 총 {len(docs_for_db)}개의 청크를 임베딩합니다...")
         vector_store = FAISS.from_documents(docs_for_db, embedding_model)
         if persist_directory:
             os.makedirs(persist_directory, exist_ok=True)
@@ -148,20 +192,24 @@ def build_vector_store(ai_rcm_list: List[Dict[str, Any]],
         print(f"[build_vector_store] 에러 발생: {str(e)}")
         raise
 
-def retrieve_ai_rcm(query_text: str, vector_store: FAISS, k: int = 1) -> Dict[str, Any]:
+def search_document(query_text: str, vector_store: FAISS, k: int = 3) -> List[Dict[str, Any]]:
     """
-    RAG 검색 함수 예시
+    문서 검색 함수
     """
     try:
-        print(f"[retrieve_ai_rcm] '{query_text}'로 검색합니다. (k={k})")
+        print(f"[search_document] '{query_text}'로 검색합니다. (k={k})")
         docs = vector_store.similarity_search(query_text, k=k)
-        if not docs:
-            return {}
-        top_doc = docs[0]
-        return top_doc.metadata.get("rcm_data", {})
+        results = []
+        for doc in docs:
+            results.append({
+                "content": doc.page_content,
+                "path": doc.metadata["path"],
+                "value": doc.metadata["value"]
+            })
+        return results
     except Exception as e:
-        print(f"[retrieve_ai_rcm] 에러 발생: {str(e)}")
-        return {}
+        print(f"[search_document] 에러 발생: {str(e)}")
+        return []
 
 
 
@@ -170,38 +218,24 @@ def retrieve_ai_rcm(query_text: str, vector_store: FAISS, k: int = 1) -> Dict[st
 # 메인 실행부
 ###################################################
 if __name__ == "__main__":
-
-
-    
-
-    sample_ai_rcm_list = [
-        {
-            "process_name": "유무형자산 취득",
-            "subprocess_name": "",
-            "risk_description": "자산 구매와 불일치한 전표처리 위험",
-            "control_code": "C-FA-10-04",
-            "control_title": "유무형자산 취득 통제",
-            "control_description": "회계부서장이 증빙 대조 후 승인"
-        },
-        {
-            "process_name": "재무제표 결산",
-            "subprocess_name": "",
-            "risk_description": "승인되지 않은 전표 처리 위험",
-            "control_code": "C-FR-20-01",
-            "control_title": "수기전표 승인 통제",
-            "control_description": "작성자와 승인자 분리"
-        }
-    ]
     try:
+        # 매출채권조서 JSON 파일 로드
+        with open(r"C:\Users\jkim564\Documents\ai_apps\Audit Reviewer\Aura Review\workpaper\매출채권조서.json", "r", encoding="utf-8") as f:
+            workpaper_data = json.load(f)
+
         print("[INFO] RAG: 벡터스토어 생성 시작...")
-        vector_db = build_vector_store(sample_ai_rcm_list, persist_directory="faiss_index")
+        vector_db = build_vector_store(workpaper_data, persist_directory="faiss_index")
         print("[INFO] RAG: 벡터스토어 생성 완료.")
 
-        query_text = "회계결산과 관련된 통제"
-        result = retrieve_ai_rcm(query_text, vector_db)
+        # 검색 예시
+        query_text = "매출채권 잔액"
+        results = search_document(query_text, vector_db)
+        
         print("\n[검색 결과]")
-        print(" - Control Code:", result.get("control_code"))
-        print(" - Control Title:", result.get("control_title"))
-        print(" - Control Description:", result.get("control_description"))
+        for idx, result in enumerate(results, 1):
+            print(f"\n결과 {idx}:")
+            print(f"경로: {result['path']}")
+            print(f"내용: {result['value']}")
+            
     except Exception as e:
         print("[MAIN] RAG 에러:", str(e)) 

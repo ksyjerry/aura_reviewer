@@ -1,0 +1,2549 @@
+{
+    "metadata": {
+        "file_name": "4cdde37d-71a5-ef11-a865-000d3a80c5fe.xlsm",
+        "total_sheets": 2,
+        "sheet_names": [
+            "Library Procedures",
+            "Journal entries testing"
+        ],
+        "sheets_info": {
+            "Library Procedures": {
+                "max_row": 352,
+                "max_column": 13,
+                "has_merged_cells": true,
+                "sheet_state": "visible"
+            },
+            "Journal entries testing": {
+                "max_row": 39,
+                "max_column": 121,
+                "has_merged_cells": true,
+                "sheet_state": "visible"
+            }
+        },
+        "last_modified": "2025-01-19 15:25:12"
+    },
+    "sheets": {
+        "Library Procedures": [
+            {
+                "row_index": 0,
+                "content": {
+                    "G": {
+                        "value": "NGA Smaller Entity Audits\n경영진의 통제무력화와 관련된 부정위험에 대응한다 \n(Halo for Journals)\nRespond to the risk of fraud involving management override of controls\n(Halo for Journals)",
+                        "coordinate": "G1"
+                    }
+                }
+            },
+            {
+                "row_index": 4,
+                "content": {
+                    "B": {
+                        "value": "Global Procedures & Results",
+                        "coordinate": "B5"
+                    },
+                    "I": {
+                        "value": "Links",
+                        "coordinate": "I5"
+                    },
+                    "K": {
+                        "value": "Requirements",
+                        "coordinate": "K5"
+                    }
+                }
+            },
+            {
+                "row_index": 5,
+                "content": {
+                    "B": {
+                        "value": "분개 및 기타 조정사항\nJournal entries",
+                        "coordinate": "B6"
+                    }
+                }
+            },
+            {
+                "row_index": 7,
+                "content": {
+                    "B": {
+                        "value": "1.",
+                        "coordinate": "B8"
+                    },
+                    "C": {
+                        "value": "분개 테스트 전략을 결정함:\nDetermined the journal entries testing strategy:",
+                        "coordinate": "C8"
+                    }
+                }
+            },
+            {
+                "row_index": 8,
+                "content": {
+                    "D": {
+                        "value": "감사팀의 부정위험평가에 기초한 분개 테스트 전략이 감사팀 planning 회의에서 논의되고 합의되었음을 확인함, 이는 EGA '*Engagement team planning meeting'에 문서화, 또는\nConfirmed that the journal entries testing strategy, based on the engagement team's fraud risk assessment, was discussed and agreed during the engagement team planning meeting as documented in EGA '*Engagement team planning meeting', or",
+                        "coordinate": "D9"
+                    },
+                    "L": {
+                        "value": true,
+                        "coordinate": "L9"
+                    }
+                }
+            },
+            {
+                "row_index": 10,
+                "content": {
+                    "E": {
+                        "value": "계획된 접근 방식에 대한 추가 업데이트가 필요하지 않음, 또는\nNo further updates required to the planned approach, or",
+                        "coordinate": "E11"
+                    },
+                    "L": {
+                        "value": true,
+                        "coordinate": "L11"
+                    }
+                }
+            },
+            {
+                "row_index": 11,
+                "content": {
+                    "E": {
+                        "value": "아래에 자세히 설명된 다음 업데이트가 계획된 접근 방식에 적합하다고 고려됨\nThe following updates as detailed below considered to be appropriate to the planned approach",
+                        "coordinate": "E12"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L12"
+                    }
+                }
+            },
+            {
+                "row_index": 12,
+                "content": {
+                    "E": {
+                        "value": "분개 테스트 전략에 대한 업데이트 세부사항:\nDetails of updates to the journal entries testing strategy:",
+                        "coordinate": "E13"
+                    }
+                }
+            },
+            {
+                "row_index": 15,
+                "content": {
+                    "D": {
+                        "value": "분개 테스트 전략을 이 EGA에 문서화\nThe journal entries testing strategy is documented in this EGA",
+                        "coordinate": "D16"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L16"
+                    }
+                }
+            },
+            {
+                "row_index": 16,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L17"
+                    }
+                }
+            },
+            {
+                "row_index": 17,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C18"
+                    }
+                }
+            },
+            {
+                "row_index": 20,
+                "content": {
+                    "B": {
+                        "value": "2.",
+                        "coordinate": "B21"
+                    },
+                    "C": {
+                        "value": "자동화된 분개와 관련된 위험 및 테스트 전략에 미치는 영향을 고려함:\nConsidered the risk associated with automated journal entries and impact on the testing strategy:",
+                        "coordinate": "C21"
+                    },
+                    "K": {
+                        "value": "ISA 240.33 (a)(ii)-(iii)",
+                        "coordinate": "K21"
+                    }
+                }
+            },
+            {
+                "row_index": 21,
+                "content": {
+                    "D": {
+                        "value": "분개 테스트 전략은 자동화된 분개와 수기 분개를 구분하지 않음 - 정의된 위험 기반 기준을 충족하는 모든 분개는 자동화된 분개인지 수기 분개인지에 관계없이 테스트 대상으로 고려됨, 또는\nThe journal entry testing strategy does not distinguish between automated and manual journal entries - all entries that meet the defined risk-based criteria will be considered for testing, irrespective of whether they could be classified as automated or manual, or",
+                        "coordinate": "D22"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L22"
+                    }
+                }
+            },
+            {
+                "row_index": 23,
+                "content": {
+                    "D": {
+                        "value": "다음의 각각을 수행하여 자동분개를 이해하고 이에 대한 감사전략을 고려함:\nObtained an understanding of automated journals and considered the audit approach in relation to automated journal entries by performing each of the following:",
+                        "coordinate": "D24"
+                    },
+                    "L": {
+                        "value": true,
+                        "coordinate": "L24"
+                    }
+                }
+            },
+            {
+                "row_index": 25,
+                "content": {
+                    "C": {
+                        "value": "",
+                        "coordinate": "C26"
+                    },
+                    "D": {
+                        "value": "자동분개로 간주되는 것에 대한 이해함 (EGA '*정보 시스템 및 커뮤니케이션, 그리고 통제 활동'에서 얻은 'PEFR' 이해를 활용하여)\nObtained an understanding of what are considered to be automated journal entries (including leveraging 'PEFR' understanding obtained in EGA '*The information system and communication, and control activities'",
+                        "coordinate": "D26"
+                    }
+                }
+            },
+            {
+                "row_index": 27,
+                "content": {
+                    "D": {
+                        "value": "자동분개의 성격을 문서화:\nNature of automated journals:",
+                        "coordinate": "D28"
+                    }
+                }
+            },
+            {
+                "row_index": 28,
+                "content": {
+                    "D": {
+                        "value": "자동분개로 고려되는 분개에 대한 이해는 우측 링크된 EGA에서 검토함.",
+                        "coordinate": "D29"
+                    },
+                    "I": {
+                        "value": "*기업의 내부통제시스템의 구성요소를 이해하고 평가한다",
+                        "coordinate": "I29"
+                    }
+                }
+            },
+            {
+                "row_index": 30,
+                "content": {
+                    "C": {
+                        "value": "",
+                        "coordinate": "C31"
+                    },
+                    "D": {
+                        "value": "자동분개를 식별할 수 있는 방법을 파악하고 모든 자동분개가 식별되었음을 어떻게 입증할 수 있는지를 평가함\nDetermined how automated journals can be identified and assessed how we can verify that all automated journals are identifiable",
+                        "coordinate": "D31"
+                    }
+                }
+            },
+            {
+                "row_index": 31,
+                "content": {
+                    "D": {
+                        "value": "식별의 기준과 자동분개 완전성에 대한 고려의 세부내역을 문서화:\nBasis of identification and details of consideration of completeness:",
+                        "coordinate": "D32"
+                    }
+                }
+            },
+            {
+                "row_index": 32,
+                "content": {
+                    "D": {
+                        "value": "우측 링크 참조",
+                        "coordinate": "D33"
+                    }
+                }
+            },
+            {
+                "row_index": 34,
+                "content": {
+                    "C": {
+                        "value": "",
+                        "coordinate": "C35"
+                    },
+                    "D": {
+                        "value": "자동분개와 관련된 내부통제를 평가하고 '자동'분개로 구분된 분개에 대하여 사용자가 수작업으로 개입할 위험이 있는지의 여부를 판단함\nEvaluated internal controls related to automated journals and determined if for any journals that are classified as 'automated' there is a risk of manual user intervention",
+                        "coordinate": "D35"
+                    }
+                }
+            },
+            {
+                "row_index": 36,
+                "content": {
+                    "D": {
+                        "value": "내부통제를 이해하고 평가하는 과정에서 입수한 이해의 세부내역을 문서화하거나 링크를 첨부:\nDetails or provided link to understanding obtained as part of understanding and evaluating internal control:",
+                        "coordinate": "D37"
+                    }
+                }
+            },
+            {
+                "row_index": 37,
+                "content": {
+                    "D": {
+                        "value": "우측 링크 참조",
+                        "coordinate": "D38"
+                    }
+                }
+            },
+            {
+                "row_index": 39,
+                "content": {
+                    "D": {
+                        "value": "수행한 평가에 근거하여:\nBased on evaluation performed:",
+                        "coordinate": "D40"
+                    }
+                }
+            },
+            {
+                "row_index": 40,
+                "content": {
+                    "E": {
+                        "value": "통제가 적절하게 설계되고 적용되었으며 수작업 개입은 식별되지 아니함, 또는\nControls are properly designed and implemented and no manual intervention identified, or",
+                        "coordinate": "E41"
+                    },
+                    "L": {
+                        "value": true,
+                        "coordinate": "L41"
+                    }
+                }
+            },
+            {
+                "row_index": 41,
+                "content": {
+                    "E": {
+                        "value": "통제가 적절하게 설계되고 적용되지 아니함, 또는 수작업 개입이 식별됨\nControls are not properly designed and implemented, or manual intervention identified",
+                        "coordinate": "E42"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L42"
+                    }
+                }
+            },
+            {
+                "row_index": 43,
+                "content": {
+                    "C": {
+                        "value": "",
+                        "coordinate": "C44"
+                    },
+                    "D": {
+                        "value": "자동분개와 관련하여 식별된 부정위험요소를 평가함\nAssessed identified fraud risk factors in relation to automated journals",
+                        "coordinate": "D44"
+                    }
+                }
+            },
+            {
+                "row_index": 44,
+                "content": {
+                    "E": {
+                        "value": "자동분개와 관련하여 특별한 부정위험요소가 식별되지 않음, 또는\nNo specific fraud risk factors in relation to automated journals have been identified, or",
+                        "coordinate": "E45"
+                    },
+                    "L": {
+                        "value": true,
+                        "coordinate": "L45"
+                    }
+                }
+            },
+            {
+                "row_index": 45,
+                "content": {
+                    "E": {
+                        "value": "자동분개와 관련하여 특별한 부정위험요소가 식별됨\nSpecific fraud risk factors in relation to automated journals have been identified",
+                        "coordinate": "E46"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L46"
+                    }
+                }
+            },
+            {
+                "row_index": 46,
+                "content": {
+                    "E": {
+                        "value": "세부내역을 문서화:\nDetails:",
+                        "coordinate": "E47"
+                    }
+                }
+            },
+            {
+                "row_index": 49,
+                "content": {
+                    "C": {
+                        "value": "",
+                        "coordinate": "C50"
+                    },
+                    "D": {
+                        "value": "상기 절차의 결과를 고려하여 자동분개에 대한 감사절차를 결정함\nConsidered the results of the procedures above and determined the audit procedures related to automated journals:",
+                        "coordinate": "D50"
+                    }
+                }
+            },
+            {
+                "row_index": 50,
+                "content": {
+                    "E": {
+                        "value": "자동분개는 아래에서 수행한 (위험에 기반한) 분개 테스트의 범위에 포함됨, 또는\nAutomated journals are included in risk-based testing of journal entries performed below, or",
+                        "coordinate": "E51"
+                    },
+                    "L": {
+                        "value": true,
+                        "coordinate": "L51"
+                    }
+                }
+            },
+            {
+                "row_index": 51,
+                "content": {
+                    "E": {
+                        "value": "자동분개는 아래에서 수행한 (위험에 기반한) 분개 테스트의 범위에 포함되지 않음, 또는\nAutomated journals are excluded from the risk-based testing of journal entries performed below",
+                        "coordinate": "E52"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L52"
+                    }
+                }
+            },
+            {
+                "row_index": 52,
+                "content": {
+                    "E": {
+                        "value": "타당한 근거의 세부내역을 문서화하거나 링크를 첨부:\nDetailed justification or provide link:",
+                        "coordinate": "E53"
+                    }
+                }
+            },
+            {
+                "row_index": 54,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L55"
+                    }
+                }
+            },
+            {
+                "row_index": 55,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C56"
+                    }
+                }
+            },
+            {
+                "row_index": 58,
+                "content": {
+                    "B": {
+                        "value": "3.",
+                        "coordinate": "B59"
+                    },
+                    "C": {
+                        "value": "분개와 관련하여 부적합하거나 비경상적인 행위(예: 일반적으로 분개를 처리하지 않는 개인이 입력한 분개)에 대해 재무보고절차에 관여한 개인들에게 이전에 한 질의에 대한 업데이트를 수행함\nPerformed updates to prior inquiries of individuals involved in the financial reporting process about inappropriate or unusual activity relating to journal entries (e.g., entries made by individuals who do not typically process journal entries).",
+                        "coordinate": "C59"
+                    },
+                    "K": {
+                        "value": "ISA 240.33 (a)(i)",
+                        "coordinate": "K59"
+                    }
+                }
+            },
+            {
+                "row_index": 60,
+                "content": {
+                    "C": {
+                        "value": "질문대상자와 일자를 문서화:\nName and date of inquiry:",
+                        "coordinate": "C61"
+                    }
+                }
+            },
+            {
+                "row_index": 61,
+                "content": {
+                    "C": {
+                        "value": "2025-03-08, 손모음 차장",
+                        "coordinate": "C62"
+                    }
+                }
+            },
+            {
+                "row_index": 63,
+                "content": {
+                    "D": {
+                        "value": "부적합하거나 비경상적인 행위는 없음, 또는\nNo inappropriate or unusual activity, or",
+                        "coordinate": "D64"
+                    },
+                    "L": {
+                        "value": true,
+                        "coordinate": "L64"
+                    }
+                }
+            },
+            {
+                "row_index": 64,
+                "content": {
+                    "D": {
+                        "value": "부적합하거나 비경상적인 행위가 식별됨\nInappropriate or unusual activity identified",
+                        "coordinate": "D65"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L65"
+                    }
+                }
+            },
+            {
+                "row_index": 65,
+                "content": {
+                    "D": {
+                        "value": "세부내역을 문서화:\nDetails:",
+                        "coordinate": "D66"
+                    }
+                }
+            },
+            {
+                "row_index": 68,
+                "content": {
+                    "D": {
+                        "value": "다음 EGA추가를 고려함:\nConsidered adding the following:",
+                        "coordinate": "D69"
+                    }
+                }
+            },
+            {
+                "row_index": 69,
+                "content": {
+                    "D": {
+                        "value": "- EGA ‘Investigate situations where evidence indicates a fraud may have occurred’\n- EGA ‘Investigate situations where evidence indicates a fraud may have occurred’",
+                        "coordinate": "D70"
+                    }
+                }
+            },
+            {
+                "row_index": 71,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L72"
+                    }
+                }
+            },
+            {
+                "row_index": 72,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C73"
+                    }
+                }
+            },
+            {
+                "row_index": 75,
+                "content": {
+                    "C": {
+                        "value": "분개 및 기타 조정사항의 처리와 관련하여 부적합하거나 비경상적인 행위(예, 일반적으로 분개를 처리하지 않는 개인이 입력한 분개)가 있었는지에 대하여 재무보고절차에 관여하는 사람들에게 질문함.\nInquired of individuals involved in the financial reporting process about inappropriate or unusual activity relating to journal entries (e.g., entries made by individuals who do not typically process journal entries).",
+                        "coordinate": "C76"
+                    },
+                    "K": {
+                        "value": "ISA 240.33 (a)(i)",
+                        "coordinate": "K76"
+                    }
+                }
+            },
+            {
+                "row_index": 77,
+                "content": {
+                    "C": {
+                        "value": "질문대상자와 일자를 문서화:\nName and date of inquiry:",
+                        "coordinate": "C78"
+                    }
+                }
+            },
+            {
+                "row_index": 80,
+                "content": {
+                    "D": {
+                        "value": "부적합하거나 비경상적인 행위는 없음, 또는\nNo inappropriate or unusual activity, or",
+                        "coordinate": "D81"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L81"
+                    }
+                }
+            },
+            {
+                "row_index": 81,
+                "content": {
+                    "D": {
+                        "value": "부적합하거나 비경상적인 행위가 식별됨\nInappropriate or unusual activity identified",
+                        "coordinate": "D82"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L82"
+                    }
+                }
+            },
+            {
+                "row_index": 82,
+                "content": {
+                    "D": {
+                        "value": "세부내역을 문서화:\nDetails:",
+                        "coordinate": "D83"
+                    }
+                }
+            },
+            {
+                "row_index": 85,
+                "content": {
+                    "D": {
+                        "value": "다음 EGA추가를 고려함:\nConsidered adding the following:",
+                        "coordinate": "D86"
+                    }
+                }
+            },
+            {
+                "row_index": 86,
+                "content": {
+                    "D": {
+                        "value": "- EGA ‘Investigate situations where evidence indicates a fraud may have occurred’\n- EGA ‘Investigate situations where evidence indicates a fraud may have occurred’",
+                        "coordinate": "D87"
+                    }
+                }
+            },
+            {
+                "row_index": 88,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L89"
+                    }
+                }
+            },
+            {
+                "row_index": 89,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C90"
+                    }
+                }
+            },
+            {
+                "row_index": 92,
+                "content": {
+                    "C": {
+                        "value": "테스트할 분개를 선정하기 위해 보고기간 말로 고려되는 기간을 정의함.\nDefined what is considered to be the end of the reporting period for selection of journal entries for testing.",
+                        "coordinate": "C93"
+                    },
+                    "K": {
+                        "value": "ISA 240.33 (a)(ii)-(iii)",
+                        "coordinate": "K93"
+                    }
+                }
+            },
+            {
+                "row_index": 93,
+                "content": {
+                    "D": {
+                        "value": "재무제표가 작성되는 기간 (예, 'period 13' adjustments), 또는\nThe period during which the financial statements are prepared (e.g., 'period 13' adjustments), or",
+                        "coordinate": "D94"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L94"
+                    }
+                }
+            },
+            {
+                "row_index": 94,
+                "content": {
+                    "D": {
+                        "value": "보고기간의 마지막 주, 또는\nLast week of the reporting period, or",
+                        "coordinate": "D95"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L95"
+                    }
+                }
+            },
+            {
+                "row_index": 95,
+                "content": {
+                    "D": {
+                        "value": "보고기간의 마지막 달 (또는 이와 동등한 기간), 또는\nLast month (or equivalent) of the reporting period, or",
+                        "coordinate": "D96"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L96"
+                    }
+                }
+            },
+            {
+                "row_index": 96,
+                "content": {
+                    "D": {
+                        "value": "보고기간의 마지막 분기, 또는\nLast quarter of the reporting period, or",
+                        "coordinate": "D97"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L97"
+                    }
+                }
+            },
+            {
+                "row_index": 97,
+                "content": {
+                    "D": {
+                        "value": "기타\nOther",
+                        "coordinate": "D98"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L98"
+                    }
+                }
+            },
+            {
+                "row_index": 98,
+                "content": {
+                    "C": {
+                        "value": "근거를 문서화:\nRationale:",
+                        "coordinate": "C99"
+                    }
+                }
+            },
+            {
+                "row_index": 99,
+                "content": {
+                    "C": {
+                        "value": "",
+                        "coordinate": "C100"
+                    }
+                }
+            },
+            {
+                "row_index": 100,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L101"
+                    }
+                }
+            },
+            {
+                "row_index": 101,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C102"
+                    }
+                }
+            },
+            {
+                "row_index": 104,
+                "content": {
+                    "C": {
+                        "value": "보고기간 전체를 통하여 이루어진 분개를 테스트할 필요가 있는지 고려함.\nConsidered the need to test journal entries throughout the period.",
+                        "coordinate": "C105"
+                    },
+                    "K": {
+                        "value": "ISA 240.33 (a)(ii)-(iii)",
+                        "coordinate": "K105"
+                    }
+                }
+            },
+            {
+                "row_index": 105,
+                "content": {
+                    "D": {
+                        "value": "보고기간 전체의 분개를 테스트함, 또는\nJournal entries to be tested throughout the period, or",
+                        "coordinate": "D106"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L106"
+                    }
+                }
+            },
+            {
+                "row_index": 106,
+                "content": {
+                    "D": {
+                        "value": "보고기간 전체의 분개를 테스트 하지 않음\nJournal entries will not be tested throughout the period",
+                        "coordinate": "D107"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L107"
+                    }
+                }
+            },
+            {
+                "row_index": 107,
+                "content": {
+                    "D": {
+                        "value": "해당 항목에 체크:\nChecked those that apply:",
+                        "coordinate": "D108"
+                    }
+                }
+            },
+            {
+                "row_index": 108,
+                "content": {
+                    "E": {
+                        "value": "중요한 기말 잔액에 대하여 수행할 예정인 실증 절차의 범위와 시기를 고려해 보고기간 전체의 분개를 테스트 하지 않음\nExtent and timing of planned substantive procedures to be performed on material period-end balances supports not testing journal entries throughout the period",
+                        "coordinate": "E109"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L109"
+                    }
+                }
+            },
+            {
+                "row_index": 110,
+                "content": {
+                    "E": {
+                        "value": "위에서 평가된 위험 기준과 관련된 분개는 보고기간말에 집중됨을 이해\nUnderstanding obtained that entries related to assessed risk criteria above are concentrated at end of reporting period",
+                        "coordinate": "E111"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L111"
+                    }
+                }
+            },
+            {
+                "row_index": 111,
+                "content": {
+                    "E": {
+                        "value": "모든 비자동분개가 기말에 조정됨\nAll non-automated journals are trued-up at the period-end",
+                        "coordinate": "E112"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L112"
+                    }
+                }
+            },
+            {
+                "row_index": 112,
+                "content": {
+                    "E": {
+                        "value": "기타\nOther",
+                        "coordinate": "E113"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L113"
+                    }
+                }
+            },
+            {
+                "row_index": 113,
+                "content": {
+                    "D": {
+                        "value": "세부내역을 문서화:\nDetails:",
+                        "coordinate": "D114"
+                    }
+                }
+            },
+            {
+                "row_index": 114,
+                "content": {
+                    "D": {
+                        "value": "",
+                        "coordinate": "D115"
+                    }
+                }
+            },
+            {
+                "row_index": 115,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L116"
+                    }
+                }
+            },
+            {
+                "row_index": 116,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C117"
+                    }
+                }
+            },
+            {
+                "row_index": 119,
+                "content": {
+                    "B": {
+                        "value": "4.",
+                        "coordinate": "B120"
+                    },
+                    "C": {
+                        "value": "테스트를 위해 분개 및 기타 조정사항이 선택되는 모집단의 원천의 완전성을 테스트함 (예: 핵심 회계 패키지, 연결 시스템 및 기타 조정사항의 원천).\nTested the completeness of the sources of populations from which journal entries and other adjustments are selected for testing (e.g. core accounting packages, consolidation systems, and other sources of adjustments).",
+                        "coordinate": "C120"
+                    },
+                    "K": {
+                        "value": "ISA 240.33 (a)(ii)-(iii)",
+                        "coordinate": "K120"
+                    }
+                }
+            },
+            {
+                "row_index": 121,
+                "content": {
+                    "C": {
+                        "value": "각 모집단에 대해 수행한 절차 (예: CAATs 또는 수기 테스트) 및 결과:\nProcedures performed (e.g., CAATs or manual testing) and results for each population:",
+                        "coordinate": "C122"
+                    }
+                }
+            },
+            {
+                "row_index": 122,
+                "content": {
+                    "C": {
+                        "value": "Client의 전표 데이터에 대한 완전성 및 무결성검사(Completeness & integrity check)을 수행하였으며, 테스트결과는 ETL Deliverable xlsm에 문서화 수행함(상세 내용은 하단 7번항목 참조). TB 기초잔액이 전기말 최종 재무제표 상 금액과 일치하는지, TB 기말잔액이 당기말 증선위에 제출한 사전제시 재무제표와 일치하는지 검토한 결과, 특이사항 없었으며 전표를 입력하지 않고 엑셀상 수기 조정되는 결산 분개에 대한 감사팀의 검토는 우측 Link에서 확인함. \n전표분석을 위한 데이터 추출과정에서 Extract가 제공하는 기본로직의 수정없이 테이블과 필드 값을 추출하였으며, 전표분석을 위해 필수적으로 요구되는 정보값들이 모두 포함되었음을 확인하고 ERP 시스템인 SAP 외 연결시스템 등 다른 Legacy 정보값은 추출대상에서 제외됨을 확인함.",
+                        "coordinate": "C123"
+                    }
+                }
+            },
+            {
+                "row_index": 124,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L125"
+                    }
+                }
+            },
+            {
+                "row_index": 125,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C126"
+                    }
+                }
+            },
+            {
+                "row_index": 128,
+                "content": {
+                    "B": {
+                        "value": "5.",
+                        "coordinate": "B129"
+                    },
+                    "C": {
+                        "value": "Mapping File을 C-AMS 포털에서 직접 다운로드함. Mapping File 내에서 필요한 단계를 검토하고 완료한 후 다시 C-AMS 포털에 업로드함. 완료된 Mapping File을 Aura Document Library에 첨부함.\nDownloaded the Mapping File directly from the C-AMS Portal. Reviewed and completed the required steps within the Mapping File and then re-uploaded it back into the C-AMS Portal. Attached the completed Mapping File in the Aura Document Library.",
+                        "coordinate": "C129"
+                    }
+                }
+            },
+            {
+                "row_index": 130,
+                "content": {
+                    "C": {
+                        "value": "적용 가능한 경우 수행한 업무의 세부내역:\nDetails of work performed where applicable:",
+                        "coordinate": "C131"
+                    }
+                }
+            },
+            {
+                "row_index": 131,
+                "content": {
+                    "C": {
+                        "value": "Halo Platform에서 Mapping 파일을 다운로드하여 FSLI를 작성 후 완료된 파일을 같은 화면에 다시 업로드함\n아래와 같이 Halo Platform에 Mapping 파일이 정상적으로 upload 됨. ",
+                        "coordinate": "C132"
+                    }
+                }
+            },
+            {
+                "row_index": 133,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L134"
+                    }
+                }
+            },
+            {
+                "row_index": 134,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C135"
+                    }
+                }
+            },
+            {
+                "row_index": 137,
+                "content": {
+                    "B": {
+                        "value": "6.",
+                        "coordinate": "B138"
+                    },
+                    "C": {
+                        "value": "추출(Extract), 변환(Transform), and Load (ETL) 산출물을 입수하고 다음 각 항목을 수행함:\nObtained the Extract, Transform, and Load (ETL) Deliverable and performed each of the following:",
+                        "coordinate": "C138"
+                    },
+                    "K": {
+                        "value": "ISA 240.33 (a)(ii)-(iii)",
+                        "coordinate": "K138"
+                    }
+                }
+            },
+            {
+                "row_index": 138,
+                "content": {
+                    "C": {
+                        "value": "",
+                        "coordinate": "C139"
+                    },
+                    "D": {
+                        "value": "ETL 산출물 (변환 스크립트의 문서화)을 입수함:\nObtained the ETL Deliverable (the documentation of the transformation scripts):",
+                        "coordinate": "D139"
+                    }
+                }
+            },
+            {
+                "row_index": 139,
+                "content": {
+                    "D": {
+                        "value": "해당 항목에 체크:\nChecked those that apply:",
+                        "coordinate": "D140"
+                    }
+                }
+            },
+            {
+                "row_index": 140,
+                "content": {
+                    "E": {
+                        "value": "E2E Automation 절차를 따름 (Data Link를 통한 입수방법 포함) - ETL 산출물을 C-AMS 포털에서 직접 다운로드함\nFollowed the E2E Automation process (includes the Data Link acquisition method) - Downloaded the ETL Deliverable directly from the C-AMS Portal",
+                        "coordinate": "E141"
+                    },
+                    "L": {
+                        "value": true,
+                        "coordinate": "L141"
+                    }
+                }
+            },
+            {
+                "row_index": 141,
+                "content": {
+                    "E": {
+                        "value": "OnRamp 절차를 따름 - ETL 산출물을 C-AMS 포털에서 직접 다운로드함. Journals Checkpoint Document (JCD)의 'push' 기능을 사용하여 C-AMS 포털에서 생성된 ETL 산출물로 발견 사항과 configuration 세부 사항을 직접 전송함\nFollowed the OnRamp process - Downloaded the ETL Deliverable directly from the C-AMS Portal. Used the 'push' functionality in the Journals Checkpoint Document (JCD) to transfer findings and configuration details directly to the ETL Deliverable generated from the C-AMS Portal",
+                        "coordinate": "E142"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L142"
+                    }
+                }
+            },
+            {
+                "row_index": 143,
+                "content": {
+                    "C": {
+                        "value": "",
+                        "coordinate": "C144"
+                    },
+                    "D": {
+                        "value": "데이터 가져오기 및 유효성 검사를 포함한 ETL 산출물을 평가하여 보고서, 결과물 및 예비 발견 사항에 대한 이해함. ETL 산출물 내에서 필요한 단계를 검토하고 완료한 후, 완료된 ETL 산출물을 Aura Document Library에 첨부함.\nAssessed the ETL Deliverable including the data import and validation check results, in order to gain an understanding of the report, results and preliminary findings. Reviewed and completed the required steps within the ETL Deliverable and then attached the completed ETL Deliverable in the Aura Document Library.",
+                        "coordinate": "D144"
+                    }
+                }
+            },
+            {
+                "row_index": 146,
+                "content": {
+                    "D": {
+                        "value": "수행한 업무의 세부내역과 SDC/Data Assurance를 활용한 경우 이들과의 논의 내용 (적용 가능한 경우):\nDetails of work performed and discussions with SDC or Data Assurance where applicable:",
+                        "coordinate": "D147"
+                    }
+                }
+            },
+            {
+                "row_index": 147,
+                "content": {
+                    "D": {
+                        "value": "E2E Automation 방식으로 전표추출하였으며, Halo Platform에서 ETL Deliverable을 다운로드하여 아래와 같이 검토수행함. \n\n- Completeness, Integrity Summary: Halo for journals 홈 화면에 보이는 Journal lines과 Total debits, Total credits 값을 수기로 작성하여 control counts를 검토한 결과, Halo for journals 애플리케이션 생성 시 누락된 정보 값이 없음을 확인함. \n- Integrity Checks Detail:  Data Integrity Check 결과를 확인하고, Integrity Check Pass Fail에 'Fail'이나 'Value'로 표시된 항목에 대해서 전표분석을 위해 제한이 존재하는지 검토한 결과, 특이사항 없음.\n- Completeness Detail: TB의 기초잔액에서 기말잔액으로 변동금액이 추출된 전표로 검증되는지 확인한 결과, 차이 없음. \n- Unbalanced JEs 탭에서 Unbalanced JEs가 존재하는지 검토하고, Automated vs. Manual 탭에서 감사계획단계 '분개 프로세스 이해'를 통해 파악한 Document Type별 Automated or Manual 구분과 일관되는지 검토한 결과 특이사항 없음.\n- Halo for journals에서 변환된 데이터에 대하여 애플리케이션 외부에서 추가 편집이 필요한지 검토하였으며, 편집이 필요한 내역이 파악되지 않음.",
+                        "coordinate": "D148"
+                    }
+                }
+            },
+            {
+                "row_index": 149,
+                "content": {
+                    "C": {
+                        "value": "",
+                        "coordinate": "C150"
+                    },
+                    "D": {
+                        "value": "기초잔액을 전기 재무제표잔액과 대사함\nAgreed the opening balance with the prior financial statement balances",
+                        "coordinate": "D150"
+                    }
+                }
+            },
+            {
+                "row_index": 150,
+                "content": {
+                    "E": {
+                        "value": "조정항목은 발견되지 아니함, 또는\nNo reconciling items noted, or",
+                        "coordinate": "E151"
+                    },
+                    "L": {
+                        "value": true,
+                        "coordinate": "L151"
+                    }
+                }
+            },
+            {
+                "row_index": 151,
+                "content": {
+                    "E": {
+                        "value": "중요하지 아니한 조정 사항 발견됨 - 추가 테스트 수행하지 아니함, 또는\nInsignificant reconciling items noted - no further testing performed, or",
+                        "coordinate": "E152"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L152"
+                    }
+                }
+            },
+            {
+                "row_index": 152,
+                "content": {
+                    "E": {
+                        "value": "총 금액과 근거를 문서화:\nTotal amount and rationale:",
+                        "coordinate": "E153"
+                    }
+                }
+            },
+            {
+                "row_index": 155,
+                "content": {
+                    "E": {
+                        "value": "중요한 조정사항이 파악됨 - 조정 근거를 식별하기 위하여 추가적인 테스트를 수행함\nSignificant reconciling items noted - further testing performed to identify why the amounts are different",
+                        "coordinate": "E156"
+                    },
+                    "I": {
+                        "value": "E2E Automation 방식으로 전표추출하였으며, Halo Platform에서 ETL Deliverable을 다운로드하여 아래와 같이 검토수행함. \n\n\n\n\n\n\n+I156\n\n\n\n- Completeness, Integrity Summary: Halo for journals 홈 화면에 보이는 Journal lines과 Total debits, Total credits 값을 수기로 작성하여 control counts를 검토한 결과, Halo for journals 애플리케이션 생성 시 누락된 정보 값이 없음을 확인함. \n- Integrity Checks Detail:  Data Integrity Check 결과를 확인하고, Integrity Check Pass Fail에 'Fail'이나 'Value'로 표시된 항목에 대해서 전표분석을 위해 제한이 존재하는지 검토한 결과, 특이사항 없음.\n- Completeness Detail: TB의 기초잔액에서 기말잔액으로 변동금액이 추출된 전표로 검증되는지 확인한 결과, 차이 없음. \n- Unbalanced JEs 탭에서 Unbalanced JEs가 존재하는지 검토하고, Automated vs. Manual 탭에서 감사계획단계 '분개 프로세스 이해'를 통해 파악한 Document Type별 Automated or Manual 구분과 일관되는지 검토한 결과 특이사항 없음.\n- Halo for journals에서 변환된 데이터에 대하여 애플리케이션 외부에서 추가 편집이 필요한지 검토하였으며, 편집이 필요한 내역이 파악되지 않음.",
+                        "coordinate": "I156"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L156"
+                    }
+                }
+            },
+            {
+                "row_index": 156,
+                "content": {
+                    "E": {
+                        "value": "조정항목의 총 금액, 수행한 테스트 및 journal entry test 계획에 미치는 영향을 문서화:\nTotal amount of reconciling items, testing performed and any impact on planned journal entries testing:",
+                        "coordinate": "E157"
+                    }
+                }
+            },
+            {
+                "row_index": 159,
+                "content": {
+                    "C": {
+                        "value": "",
+                        "coordinate": "C160"
+                    },
+                    "D": {
+                        "value": "재무제표 계정 잔액을 총계정원장과 대사하여 기타 조정항목을 식별함\nAgreed financial statement account balances to the general ledger to identify other adjustments",
+                        "coordinate": "D160"
+                    }
+                }
+            },
+            {
+                "row_index": 160,
+                "content": {
+                    "E": {
+                        "value": "조정항목은 발견되지 아니함, 또는\nNo reconciling items noted, or",
+                        "coordinate": "E161"
+                    },
+                    "L": {
+                        "value": true,
+                        "coordinate": "L161"
+                    }
+                }
+            },
+            {
+                "row_index": 161,
+                "content": {
+                    "E": {
+                        "value": "중요하지 아니한 조정 사항 발견됨 - 추가 테스트 수행하지 아니함, 또는\nInsignificant reconciling items noted - no further testing performed, or",
+                        "coordinate": "E162"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L162"
+                    }
+                }
+            },
+            {
+                "row_index": 162,
+                "content": {
+                    "E": {
+                        "value": "총 금액과 근거를 문서화:\nTotal amount and rationale:",
+                        "coordinate": "E163"
+                    }
+                }
+            },
+            {
+                "row_index": 165,
+                "content": {
+                    "E": {
+                        "value": "중요한 조정사항이 파악됨 - 조정 근거를 식별하기 위하여 추가적인 테스트를 수행함\nSignificant reconciling items noted - further testing performed to identify why the amounts are different",
+                        "coordinate": "E166"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L166"
+                    }
+                }
+            },
+            {
+                "row_index": 166,
+                "content": {
+                    "E": {
+                        "value": "조정항목의 총 금액, 수행한 테스트 및 journal entry test 계획에 미치는 영향을 문서화:\nTotal amount of reconciling items, testing performed and any impact on planned journal entries testing:",
+                        "coordinate": "E167"
+                    }
+                }
+            },
+            {
+                "row_index": 169,
+                "content": {
+                    "C": {
+                        "value": "",
+                        "coordinate": "C170"
+                    },
+                    "D": {
+                        "value": "데이터 import 및 유효성 검사 결과를 평가함\nAssessed the data import and validation check results",
+                        "coordinate": "D170"
+                    }
+                }
+            },
+            {
+                "row_index": 170,
+                "content": {
+                    "E": {
+                        "value": "데이터 import 및 유효성 검사에 예외사항이 없음을 확인함, 또는\nDetermined that there were no data import and validation check exceptions, or",
+                        "coordinate": "E171"
+                    },
+                    "L": {
+                        "value": true,
+                        "coordinate": "L171"
+                    }
+                }
+            },
+            {
+                "row_index": 171,
+                "content": {
+                    "E": {
+                        "value": "모든 데이터 import 및 유효성 검사 예외사항을 해결함\nResolved all data import and validation check exceptions",
+                        "coordinate": "E172"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L172"
+                    }
+                }
+            },
+            {
+                "row_index": 172,
+                "content": {
+                    "E": {
+                        "value": "해결의 세부내역:\nDetails of resolution:",
+                        "coordinate": "E173"
+                    }
+                }
+            },
+            {
+                "row_index": 175,
+                "content": {
+                    "C": {
+                        "value": "",
+                        "coordinate": "C176"
+                    },
+                    "D": {
+                        "value": "변환된 데이터(외부 C-AMS Portal에서)에 대한 수정이 필요하여 로컬 C-AMS Superuser와의 논의가 필요한 경우, 해당 논의와 관련 결과를 문서화함.\nIf any discussions were required with a local C-AMS Superuser which resulted in any edit(s) to the transformed data (outside the C-AMS Portal), documented the discussions and related results",
+                        "coordinate": "D176"
+                    }
+                }
+            },
+            {
+                "row_index": 177,
+                "content": {
+                    "E": {
+                        "value": "해당사항 없음 - 변환된 데이터(외부 C-AMS Portal)에서 수정이 없으므로 로컬 C-AMS Superuser와의 논의가 필요하지 않음, 또는\nNot applicable - no edits in the transformed data (outside the C-AMS Portal) and therefore no discussions were required to be held with a local C-AMS Superuser, or",
+                        "coordinate": "E178"
+                    },
+                    "L": {
+                        "value": true,
+                        "coordinate": "L178"
+                    }
+                }
+            },
+            {
+                "row_index": 179,
+                "content": {
+                    "E": {
+                        "value": "변환된 데이터에 대한 수정이 필요한 경우, 로컬 C-AMS Superuser와의 논의 및 결과에 대한 문서화를 링크함.\nLinked documentation of discussions and results with a local C-AMS Superuser when any edit(s) to the transformed data were required",
+                        "coordinate": "E180"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L180"
+                    }
+                }
+            },
+            {
+                "row_index": 180,
+                "content": {
+                    "E": {
+                        "value": "컨설테이션 및 결과의 세부내역:\nDetails of consultation and results:",
+                        "coordinate": "E181"
+                    }
+                }
+            },
+            {
+                "row_index": 182,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L183"
+                    }
+                }
+            },
+            {
+                "row_index": 183,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C184"
+                    }
+                }
+            },
+            {
+                "row_index": 186,
+                "content": {
+                    "B": {
+                        "value": "7.",
+                        "coordinate": "B187"
+                    },
+                    "C": {
+                        "value": "Halo for Journals에서 Quality screen(데이터 무결성 및 완전성 검토)을 검증하여 모든 데이터가 완전히 import 되었고 데이터 무결성 검사를 통과했음을 검증함.\nVerified the Quality screens (data integrity and completeness screens) in Halo for Journals to verify all data was imported completely and passed data integrity checks.",
+                        "coordinate": "C187"
+                    },
+                    "K": {
+                        "value": "ISA 240.33 (a)(ii)-(iii)",
+                        "coordinate": "K187"
+                    }
+                }
+            },
+            {
+                "row_index": 188,
+                "content": {
+                    "D": {
+                        "value": "데이터 무결성 또는 기타 이슈 없음, 또는\nNo data integrity or other issues noted, or",
+                        "coordinate": "D189"
+                    },
+                    "L": {
+                        "value": true,
+                        "coordinate": "L189"
+                    }
+                }
+            },
+            {
+                "row_index": 189,
+                "content": {
+                    "D": {
+                        "value": "발견된 모든 데이터 무결성 또는 기타 이슈(예, 차/대가 일치하지 않는 건)를 해결함\nResolved all data integrity or other issues noted (e.g., unbalanced items)",
+                        "coordinate": "D190"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L190"
+                    }
+                }
+            },
+            {
+                "row_index": 190,
+                "content": {
+                    "D": {
+                        "value": "해결의 세부내역:\nDetails of resolution:",
+                        "coordinate": "D191"
+                    }
+                }
+            },
+            {
+                "row_index": 192,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L193"
+                    }
+                }
+            },
+            {
+                "row_index": 193,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C194"
+                    }
+                }
+            },
+            {
+                "row_index": 196,
+                "content": {
+                    "C": {
+                        "value": "회사의 시스템에 대한 이해와 부정위험의 평가에 근거하여 테스트할 분개의 선정기준으로 위험에 기반한 적합한 기준(risk-based criteria)을 식별함.\nIdentified appropriate risk-based criteria as a basis for selecting journal entries to test based on the understanding of the entity's system and evaluation of the fraud risk.",
+                        "coordinate": "C197"
+                    },
+                    "K": {
+                        "value": "ISA 240.33 (a)(ii)-(iii)",
+                        "coordinate": "K197"
+                    }
+                }
+            },
+            {
+                "row_index": 198,
+                "content": {
+                    "C": {
+                        "value": "해당 항목에 체크:\nChecked those that apply:",
+                        "coordinate": "C199"
+                    }
+                }
+            },
+            {
+                "row_index": 199,
+                "content": {
+                    "D": {
+                        "value": "특정 위험에 기반한 기준을 식별함 - 아래 세부내역을 문서화\nIdentified specific risk-based criteria - document details below",
+                        "coordinate": "D200"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L200"
+                    }
+                }
+            },
+            {
+                "row_index": 200,
+                "content": {
+                    "D": {
+                        "value": "세부내역과 근거를 문서화:\nDetails and rationale:",
+                        "coordinate": "D201"
+                    }
+                }
+            },
+            {
+                "row_index": 201,
+                "content": {
+                    "D": {
+                        "value": "",
+                        "coordinate": "D202"
+                    }
+                }
+            },
+            {
+                "row_index": 203,
+                "content": {
+                    "D": {
+                        "value": "Backdated items - 기표일보다 소급된 유효일자를 가진 분개\nBackdated items - Entries with an effective date backdated from the entry date",
+                        "coordinate": "D204"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L204"
+                    }
+                }
+            },
+            {
+                "row_index": 204,
+                "content": {
+                    "D": {
+                        "value": "세부내역과 근거를 문서화:\nDetails and rationale:",
+                        "coordinate": "D205"
+                    }
+                }
+            },
+            {
+                "row_index": 205,
+                "content": {
+                    "D": {
+                        "value": "",
+                        "coordinate": "D206"
+                    }
+                }
+            },
+            {
+                "row_index": 207,
+                "content": {
+                    "D": {
+                        "value": "Create and approve - 작성자와 승인자가 동일한 사람인 분개 또는 작성자나 승인자가 없거나 둘 다 없는 경우\nCreate and approve - Entries where the creator and approver is the same person or where there is no creator, no approver or neither",
+                        "coordinate": "D208"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L208"
+                    }
+                }
+            },
+            {
+                "row_index": 208,
+                "content": {
+                    "D": {
+                        "value": "세부내역과 근거를 문서화:\nDetails and rationale:",
+                        "coordinate": "D209"
+                    }
+                }
+            },
+            {
+                "row_index": 209,
+                "content": {
+                    "D": {
+                        "value": "",
+                        "coordinate": "D210"
+                    }
+                }
+            },
+            {
+                "row_index": 211,
+                "content": {
+                    "D": {
+                        "value": "Duplicates and reversals - 중복되거나 서로 역분개인 것으로 보이는 전표들\nDuplicates and reversals - Entries which are apparent duplicates or reversals of each other",
+                        "coordinate": "D212"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L212"
+                    }
+                }
+            },
+            {
+                "row_index": 212,
+                "content": {
+                    "D": {
+                        "value": "세부내역과 근거를 문서화:\nDetails and rationale:",
+                        "coordinate": "D213"
+                    }
+                }
+            },
+            {
+                "row_index": 213,
+                "content": {
+                    "D": {
+                        "value": "",
+                        "coordinate": "D214"
+                    }
+                }
+            },
+            {
+                "row_index": 215,
+                "content": {
+                    "D": {
+                        "value": "Post close entries - 기표일이 총계정원장 마감일 이후이고 유효일자가 기간 종료일 이전인 경우와 같이 기표일보다 소급된 유효일자를 가진 분개\nPost close entries - Entries with an effective date backdated from the entry date, where the entry date is after general ledger close date and the effective date is before the period end",
+                        "coordinate": "D216"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L216"
+                    }
+                }
+            },
+            {
+                "row_index": 217,
+                "content": {
+                    "D": {
+                        "value": "세부내역과 근거를 문서화:\nDetails and rationale:",
+                        "coordinate": "D218"
+                    }
+                }
+            },
+            {
+                "row_index": 218,
+                "content": {
+                    "D": {
+                        "value": "",
+                        "coordinate": "D219"
+                    }
+                }
+            },
+            {
+                "row_index": 220,
+                "content": {
+                    "D": {
+                        "value": "Unexpected account combinations - 분개 내의 기표 조합이 예상과 일치하지 않는 분개\nUnexpected account combinations - Entries where the combination of postings within a journal entry do not match expectations",
+                        "coordinate": "D221"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L221"
+                    }
+                }
+            },
+            {
+                "row_index": 221,
+                "content": {
+                    "D": {
+                        "value": "세부내역과 근거를 문서화:\nDetails and rationale:",
+                        "coordinate": "D222"
+                    }
+                }
+            },
+            {
+                "row_index": 222,
+                "content": {
+                    "D": {
+                        "value": "",
+                        "coordinate": "D223"
+                    }
+                }
+            },
+            {
+                "row_index": 224,
+                "content": {
+                    "D": {
+                        "value": "Unexpected users - 한 명 또는 그 이상의 예상치 못한 사용자가 기표한 분개\nUnexpected users - Entries posted by one or more unexpected users",
+                        "coordinate": "D225"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L225"
+                    }
+                }
+            },
+            {
+                "row_index": 225,
+                "content": {
+                    "D": {
+                        "value": "세부내역과 근거를 문서화:\nDetails and rationale:",
+                        "coordinate": "D226"
+                    }
+                }
+            },
+            {
+                "row_index": 226,
+                "content": {
+                    "D": {
+                        "value": "",
+                        "coordinate": "D227"
+                    }
+                }
+            },
+            {
+                "row_index": 228,
+                "content": {
+                    "D": {
+                        "value": "Unusual amounts - 특정 패턴(예: $999.99)에 라인 항목이 일치됨에 따라 식별된 분개\nUnusual amounts - Entries identified by matching line items to specific patterns (e.g. $999.99)",
+                        "coordinate": "D229"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L229"
+                    }
+                }
+            },
+            {
+                "row_index": 229,
+                "content": {
+                    "D": {
+                        "value": "세부내역과 근거를 문서화:\nDetails and rationale:",
+                        "coordinate": "D230"
+                    }
+                }
+            },
+            {
+                "row_index": 230,
+                "content": {
+                    "D": {
+                        "value": "",
+                        "coordinate": "D231"
+                    }
+                }
+            },
+            {
+                "row_index": 232,
+                "content": {
+                    "D": {
+                        "value": "Unusual days - 두개의 선택된 특정 시간 사이-다른 날에 시작하고 끝나는 경우 포함-에 기표된 사실에 의해 식별된 분개\nUnusual days - Entries identified by the fact that they are posted between two selected specific times, including periods beginning and ending on different days",
+                        "coordinate": "D233"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L233"
+                    }
+                }
+            },
+            {
+                "row_index": 233,
+                "content": {
+                    "D": {
+                        "value": "세부내역과 근거를 문서화:\nDetails and rationale:",
+                        "coordinate": "D234"
+                    }
+                }
+            },
+            {
+                "row_index": 234,
+                "content": {
+                    "D": {
+                        "value": "",
+                        "coordinate": "D235"
+                    }
+                }
+            },
+            {
+                "row_index": 236,
+                "content": {
+                    "D": {
+                        "value": "Unusual words - 분개 또는 항목 설명에 특정 문자열이 포함되어 식별된 분개\nUnusual words - Entries identified by the fact that their journal or line description contains a specified string of text",
+                        "coordinate": "D237"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L237"
+                    }
+                }
+            },
+            {
+                "row_index": 237,
+                "content": {
+                    "D": {
+                        "value": "세부내역과 근거를 문서화:\nDetails and rationale:",
+                        "coordinate": "D238"
+                    }
+                }
+            },
+            {
+                "row_index": 238,
+                "content": {
+                    "D": {
+                        "value": "",
+                        "coordinate": "D239"
+                    }
+                }
+            },
+            {
+                "row_index": 240,
+                "content": {
+                    "D": {
+                        "value": "기타\nOther",
+                        "coordinate": "D241"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L241"
+                    }
+                }
+            },
+            {
+                "row_index": 241,
+                "content": {
+                    "D": {
+                        "value": "세부내역과 근거를 문서화:\nDetails and rationale:",
+                        "coordinate": "D242"
+                    }
+                }
+            },
+            {
+                "row_index": 242,
+                "content": {
+                    "D": {
+                        "value": "",
+                        "coordinate": "D243"
+                    }
+                }
+            },
+            {
+                "row_index": 243,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L244"
+                    }
+                }
+            },
+            {
+                "row_index": 244,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C245"
+                    }
+                }
+            },
+            {
+                "row_index": 247,
+                "content": {
+                    "B": {
+                        "value": "8.",
+                        "coordinate": "B248"
+                    },
+                    "C": {
+                        "value": "오류로 인한 중요왜곡표시위험에 대한 평가를 바탕으로, 테스트 목적의 분개를 선택하기 위해 'Large entries' 및/또는 'Large items'를 식별하는 추가 Halo for Journals '테스트'를 실행하는 것을 고려함.\nConsidered, based on our assessment of the risk of material misstatement due to error, executing the additional Halo for Journals 'tests' for identifying 'Large entries' and/or 'Large items' to obtain selections of journal entries for testing purposes.",
+                        "coordinate": "C248"
+                    },
+                    "K": {
+                        "value": "ISA 330.20(b)",
+                        "coordinate": "K248"
+                    }
+                }
+            },
+            {
+                "row_index": 250,
+                "content": {
+                    "C": {
+                        "value": "Note -  금액 threshold는 잠재적인 부정 분개/조정사항을 식별할 수 있는 특성이 아니므로, 이러한 테스트들을 실행하는 것은 부정위험에 대응하지 않음\nNote - A monetary threshold is not a characteristic of a potential fraudulent entry or adjustment, therefore execution of either of these tests does not address the risk of fraud.",
+                        "coordinate": "C251"
+                    }
+                }
+            },
+            {
+                "row_index": 253,
+                "content": {
+                    "D": {
+                        "value": "추가적인 Halo for Journals '테스트'는 실행하지 않음, 또는\nNo additional Halo for Journals 'tests' are to be executed, or",
+                        "coordinate": "D254"
+                    },
+                    "L": {
+                        "value": true,
+                        "coordinate": "L254"
+                    }
+                }
+            },
+            {
+                "row_index": 254,
+                "content": {
+                    "D": {
+                        "value": "오류 위험에 대응하여 추가적인 Halo for Journals '테스트'를 실행함 - 'Journal entries testing' 탭에서 분개의 세부내역을  근거 문서와 대사함으로써 선택한 분개의 적합성을 테스트함\nAdditional Halo for Journals 'tests' are to be executed to address the risk of error - tested appropriateness of selected journal entries by agreeing details to supporting documentation in tab 'Journal entries testing'",
+                        "coordinate": "D255"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L255"
+                    }
+                }
+            },
+            {
+                "row_index": 256,
+                "content": {
+                    "D": {
+                        "value": "해당 항목에 체크:\nChecked those that apply:",
+                        "coordinate": "D257"
+                    }
+                }
+            },
+            {
+                "row_index": 257,
+                "content": {
+                    "E": {
+                        "value": "금액이 큰 분개 - 분개의 총액에 기초하여 식별한 분개. 분개의 총액이 특정금액 이상이거나 분개 내에 사용자가 정의한 금액 이상의 항목이 특정개수 이상 존재하는 분개.\nLarge entries - Entries identified based on their large journal entry total, either greater than an absolute amount or the largest user-specified number of entries in terms of value",
+                        "coordinate": "E258"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L258"
+                    }
+                }
+            },
+            {
+                "row_index": 259,
+                "content": {
+                    "E": {
+                        "value": "세부내역과 근거를 문서화:\nDetails and rationale:",
+                        "coordinate": "E260"
+                    }
+                }
+            },
+            {
+                "row_index": 262,
+                "content": {
+                    "E": {
+                        "value": "항목이 많은 분개 - 분개의 구성항목 크기에 기초하여 식별한 분개. 분개 내 구성항목이 특정금액보다 크거나 분개내 구성항목수가 사용자가 정의한 항목수보다 큰 분개.\nLarge items - Entries identified based on their large journal line items, either greater than an absolute amount or the largest user-specified number of lines in terms of value",
+                        "coordinate": "E263"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L263"
+                    }
+                }
+            },
+            {
+                "row_index": 264,
+                "content": {
+                    "E": {
+                        "value": "세부내역과 근거를 문서화:\nDetails and rationale:",
+                        "coordinate": "E265"
+                    }
+                }
+            },
+            {
+                "row_index": 266,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L267"
+                    }
+                }
+            },
+            {
+                "row_index": 267,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C268"
+                    }
+                }
+            },
+            {
+                "row_index": 270,
+                "content": {
+                    "B": {
+                        "value": "9.",
+                        "coordinate": "B271"
+                    },
+                    "C": {
+                        "value": "테스트할 분개를 선택하고 다음의 각각을 수행:\nSelected journal entries for testing, by performing each of the following:",
+                        "coordinate": "C271"
+                    },
+                    "K": {
+                        "value": "ISA 240.33(a)(ii)-(iii)",
+                        "coordinate": "K271"
+                    }
+                }
+            },
+            {
+                "row_index": 272,
+                "content": {
+                    "C": {
+                        "value": "Note - 수행된 테스트가 EGA '*Engagement team planning meeting'에서 결정되고 문서화된 접근 방식과 일치하는지, 또는 이 EGA에 명시된 대로인지 확인함.\nNote - Verify the testing performed is consistent with the approach determined and documented in EGA ' *Engagement team planning meeting', or set out above within this EGA",
+                        "coordinate": "C273"
+                    }
+                }
+            },
+            {
+                "row_index": 275,
+                "content": {
+                    "C": {
+                        "value": "",
+                        "coordinate": "C276"
+                    },
+                    "D": {
+                        "value": "위험에 기반한 기준(risk-based criteria)을 사전 정의된 기간에 적용하여 테스트할 분개를 식별함.\nApplied risk-based criteria to defined period to identify journal entries for testing",
+                        "coordinate": "D276"
+                    },
+                    "K": {
+                        "value": "ISA 330.20(b)",
+                        "coordinate": "K276"
+                    }
+                }
+            },
+            {
+                "row_index": 276,
+                "content": {
+                    "D": {
+                        "value": "Halo 테스트 결과를 추출하여 링크에 첨부함:\nProvide link to exported Halo test results:",
+                        "coordinate": "D277"
+                    }
+                }
+            },
+            {
+                "row_index": 277,
+                "content": {
+                    "D": {
+                        "value": "Halo for journals을 통해 상기 선정된 Scenario에 따른전표 추출 수행하였으며, 해당 조서에 각각의 추출내역을 기록함. ",
+                        "coordinate": "D278"
+                    }
+                }
+            },
+            {
+                "row_index": 279,
+                "content": {
+                    "C": {
+                        "value": "",
+                        "coordinate": "C280"
+                    },
+                    "D": {
+                        "value": "테스트 할 모집단에서 제외 ('sort down')할 수 있는 유사한 분개 그룹이 있는지 고려함\nConsidered whether any groups of similar journal entries can be excluded ('sorted down') from the population to be tested",
+                        "coordinate": "D280"
+                    }
+                }
+            },
+            {
+                "row_index": 280,
+                "content": {
+                    "E": {
+                        "value": "테스트 할 모집단에서 제외할 분개 그룹은 없음, 또는\nNo groups of journal entries excluded from population to be tested, or",
+                        "coordinate": "E281"
+                    },
+                    "L": {
+                        "value": true,
+                        "coordinate": "L281"
+                    }
+                }
+            },
+            {
+                "row_index": 281,
+                "content": {
+                    "E": {
+                        "value": "테스트 할 모집단에서 제외할 하나 이상의 유사한 분개 그룹이 있음 - 'Sorting down' 탭에 제외의 근거를 입증하기 위한 절차를 수행함\nOne or more groups of similar journal entries excluded from the population to be tested - performed procedures to corroborate the basis for exclusion in tab 'Sorting down'",
+                        "coordinate": "E282"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L282"
+                    }
+                }
+            },
+            {
+                "row_index": 283,
+                "content": {
+                    "E": {
+                        "value": "제외된 모집단의 세부내역(예, risk criteria, 분개의 성격) 및 그것이 부정위험을 나타내지 않는다고 판단한 근거:\nDetails of the populations excluded (e.g., risk criteria, description of journal entries) and basis for concluding they do not represent a fraud risk:",
+                        "coordinate": "E284"
+                    }
+                }
+            },
+            {
+                "row_index": 287,
+                "content": {
+                    "E": {
+                        "value": "Note - 다수의 유사한 항목들에 대하여 기업의 설명과 분개의 적합성을 뒷받침하기 위하여 분개의 속성과 기초 거래에 대한 accept-reject testing이 활용될 수 있음. Accept-reject test 결과가 분개가 부정위험을 나타내지 않는다는 기업의 설명과 일관성이 있다면, 그러한 분개 및 기타 조정사항은 우리의 테스트 대상에서 sort out 될 수 있음. 따라서, accept-reject testing은 부정으로 인한 중요왜곡표시위험이 있는 분개 및 기타 조정사항을 더 잘 식별하기 위하여 모집단을 추가적으로 'sort down' 하기 위한 목적으로만 사용될 수 있음.\nNote - For a large number of similar items, accept-reject testing can be used on the attributes of the journal entries and underlying transactions to support the entity’s explanation and the appropriateness of the entry. If the accept-reject test results corroborate the entity’s explanation that the journal entries do not represent risk of fraud, the journal entries and other adjustments can be sorted out of our selection for testing. Accept-reject testing would therefore only be used to further 'sort down' the population to better identify the journal entries and other adjustments that represent the risk of material misstatement due to fraud.",
+                        "coordinate": "E288"
+                    }
+                }
+            },
+            {
+                "row_index": 293,
+                "content": {
+                    "F": {
+                        "value": "분개 중 샘플을 선정하여 분개의 속성을 테스트함 (각각의 유사한 분개 집단에 대하여 'ToD form'을 추가함), 또는\nTested a selection of the attributes of the journal entries ('ToD form' added for each group of similar journal entries), or",
+                        "coordinate": "F294"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L294"
+                    }
+                }
+            },
+            {
+                "row_index": 294,
+                "content": {
+                    "F": {
+                        "value": "모든 분개를 테스트함\nTested all the journal entries",
+                        "coordinate": "F295"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L295"
+                    }
+                }
+            },
+            {
+                "row_index": 296,
+                "content": {
+                    "C": {
+                        "value": "",
+                        "coordinate": "C297"
+                    },
+                    "D": {
+                        "value": "테스트를 위해 선택된 항목에 금액적인 threshold를 적용하는 것이 적합한지 고려함\nConsidered whether it is appropriate to apply a monetary threshold to items selected for testing",
+                        "coordinate": "D297"
+                    }
+                }
+            },
+            {
+                "row_index": 297,
+                "content": {
+                    "E": {
+                        "value": "금액적인 threshold를 적용하지 않음, 선택한 모든 분개를 테스트, 또는\nMonetary threshold not applied, all selected items to be tested, or",
+                        "coordinate": "E298"
+                    },
+                    "L": {
+                        "value": true,
+                        "coordinate": "L298"
+                    }
+                }
+            },
+            {
+                "row_index": 298,
+                "content": {
+                    "E": {
+                        "value": "금액적인 threshold를 적용함 - 테스트되지 않은 금액이, 개별적으로 그리고 종합적으로, 중요한 왜곡표시를 나타내지 않는다고 판단됨 (예, 금액이 합쳤을 때 performance materiality 보다 낮은 경우)\nMonetary threshold applied - untested items considered, individually and in the aggregate, to not represent a risk of material misstatement (e.g., in aggregate the items are lower than performance materiality)",
+                        "coordinate": "E299"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L299"
+                    }
+                }
+            },
+            {
+                "row_index": 300,
+                "content": {
+                    "E": {
+                        "value": "금액적인 threshold의 근거와 테스트되지 않은 분개가, 개별적으로 그리고 종합적으로, 중요한 왜곡표시를 나타내지 않는다는 결론을 포함한, 세부내역을 문서화:\nDetails, including rationale for monetary threshold and conclusion that untested journal entries, individually and in aggregate, do not represent a risk of material misstatement:",
+                        "coordinate": "E301"
+                    }
+                }
+            },
+            {
+                "row_index": 303,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L304"
+                    }
+                }
+            },
+            {
+                "row_index": 304,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C305"
+                    }
+                }
+            },
+            {
+                "row_index": 307,
+                "content": {
+                    "B": {
+                        "value": "10.",
+                        "coordinate": "B308"
+                    },
+                    "C": {
+                        "value": "분개의 세부내역을 근거 문서와 대사함으로써 선택한 모든 분개의 적합성을 평가함\nAssessed appropriateness of all selected journal entries by agreeing details to supporting documentation.",
+                        "coordinate": "C308"
+                    },
+                    "K": {
+                        "value": "ISA 240.33(a)(ii)-(iii)",
+                        "coordinate": "K308"
+                    }
+                }
+            },
+            {
+                "row_index": 308,
+                "content": {
+                    "D": {
+                        "value": "탭 'Journal entries testing' 또는 첨부한 링크에 테스트함\nTested in tab 'Journal entries testing' or provided link",
+                        "coordinate": "D309"
+                    },
+                    "I": {
+                        "value": "Journal entries testing",
+                        "coordinate": "I309"
+                    },
+                    "L": {
+                        "value": true,
+                        "coordinate": "L309"
+                    }
+                }
+            },
+            {
+                "row_index": 310,
+                "content": {
+                    "C": {
+                        "value": "Note - 결정된 위험에 기반한 기준을 충족하는 모든 분개는 적절한 sorting-down(축소) 절차를 통해 위험있는 모집단에서 제외하거나, 또는 테스트 되지 않은 분개의 총합이 부정으로 인한 중요왜곡표시위험을 나타내지 않는 경우를 제외하고는 테스트되어야 함. 분개 테스트는 관련 근거 문서를 검사하여 분개의 적합성과 승인 여부를 평가하는 것을 포함함.\nNote - All journal entries that meet the determined risk-based criteria are to the tested, unless able to be excluded from the population at risk through appropriate sorting-down procedures, or in aggregate the remaining entries do not represent a risk of material misstatement due to fraud. Testing of journal entries involves examination of the related supporting documentation to evaluate the appropriateness and authorization of the journal entries.",
+                        "coordinate": "C311"
+                    }
+                }
+            },
+            {
+                "row_index": 314,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L315"
+                    }
+                }
+            },
+            {
+                "row_index": 315,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C316"
+                    }
+                }
+            },
+            {
+                "row_index": 318,
+                "content": {
+                    "B": {
+                        "value": "정상적인 사업과정을 벗어나는 유의적 거래\nSignificant transactions outside the normal course of business",
+                        "coordinate": "B319"
+                    }
+                }
+            },
+            {
+                "row_index": 320,
+                "content": {
+                    "B": {
+                        "value": "11.",
+                        "coordinate": "B321"
+                    },
+                    "C": {
+                        "value": "회사의 정상적인 사업과정을 벗어나는 유의적 거래가 식별된 경우, 해당 거래의 사업상 논리적 근거를 평가함.\nWhere significant transactions that are outside the normal course of business for the entity are identified, evaluated the business rationale for such transactions.",
+                        "coordinate": "C321"
+                    },
+                    "K": {
+                        "value": "ISA 240.33(c)",
+                        "coordinate": "K321"
+                    }
+                }
+            },
+            {
+                "row_index": 321,
+                "content": {
+                    "D": {
+                        "value": "해당사항 없음 - 그러한 거래가 식별되지 않음, 또는\nNot applicable - no such transactions identified, or",
+                        "coordinate": "D322"
+                    },
+                    "L": {
+                        "value": true,
+                        "coordinate": "L322"
+                    }
+                }
+            },
+            {
+                "row_index": 322,
+                "content": {
+                    "D": {
+                        "value": "탭 'Outside the normal course'에서 테스트하거나 또는 링크를 첨부함\nTested in tab 'Outside the normal course' or provided link",
+                        "coordinate": "D323"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L323"
+                    }
+                }
+            },
+            {
+                "row_index": 323,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L324"
+                    }
+                }
+            },
+            {
+                "row_index": 324,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C325"
+                    }
+                }
+            },
+            {
+                "row_index": 327,
+                "content": {
+                    "B": {
+                        "value": "기타 절차\nOther procedures",
+                        "coordinate": "B328"
+                    }
+                }
+            },
+            {
+                "row_index": 329,
+                "content": {
+                    "B": {
+                        "value": "12.",
+                        "coordinate": "B330"
+                    },
+                    "C": {
+                        "value": "경영진의 통제무력화와 관련된 위험을 다루기 위해 기타 절차가 필요한지 여부를 결정함.\nDetermined if other procedures are necessary to address the risk of management override.",
+                        "coordinate": "C330"
+                    },
+                    "K": {
+                        "value": "ISA 240.34",
+                        "coordinate": "K330"
+                    }
+                }
+            },
+            {
+                "row_index": 330,
+                "content": {
+                    "D": {
+                        "value": "해당사항 없음 - 추가적인 절차가 필요하지 않음, 또는\nNot applicable - no further procedures necessary, or",
+                        "coordinate": "D331"
+                    },
+                    "L": {
+                        "value": true,
+                        "coordinate": "L331"
+                    }
+                }
+            },
+            {
+                "row_index": 331,
+                "content": {
+                    "D": {
+                        "value": "추가적인 절차를 수행함\nPerformed additional procedures",
+                        "coordinate": "D332"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L332"
+                    }
+                }
+            },
+            {
+                "row_index": 332,
+                "content": {
+                    "D": {
+                        "value": "세부내역을 문서화:\nDetails:",
+                        "coordinate": "D333"
+                    }
+                }
+            },
+            {
+                "row_index": 334,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L335"
+                    }
+                }
+            },
+            {
+                "row_index": 335,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C336"
+                    }
+                }
+            },
+            {
+                "row_index": 341,
+                "content": {
+                    "B": {
+                        "value": "Territory Supplemental Procedures & Results",
+                        "coordinate": "B342"
+                    },
+                    "I": {
+                        "value": "Links",
+                        "coordinate": "I342"
+                    },
+                    "K": {
+                        "value": "Requirements",
+                        "coordinate": "K342"
+                    }
+                }
+            }
+        ],
+        "Journal entries testing": [
+            {
+                "row_index": 0,
+                "content": {
+                    "G": {
+                        "value": "NGA Smaller Entity Audits\n분개 테스트\nJournal entries testing",
+                        "coordinate": "G1"
+                    }
+                }
+            },
+            {
+                "row_index": 4,
+                "content": {
+                    "B": {
+                        "value": "샘플을 문서화\nDOCUMENTATION OF SAMPLE",
+                        "coordinate": "B5"
+                    },
+                    "N": {
+                        "value": "테스트내역을 문서화\nDOCUMENTATION OF TESTING",
+                        "coordinate": "N5"
+                    }
+                }
+            },
+            {
+                "row_index": 5,
+                "content": {
+                    "B": {
+                        "value": "샘플 항목\nSample item",
+                        "coordinate": "B6"
+                    },
+                    "G": {
+                        "value": "G/L 계정 번호\nG/L account number",
+                        "coordinate": "G6"
+                    },
+                    "H": {
+                        "value": "G/L 계정명\nG/L account\nname",
+                        "coordinate": "H6"
+                    },
+                    "I": {
+                        "value": "분개 번호\nJournal entry\nnumber",
+                        "coordinate": "I6"
+                    },
+                    "J": {
+                        "value": "분개 일자\nJournal entry\ndate",
+                        "coordinate": "J6"
+                    },
+                    "K": {
+                        "value": "분개 입력자\nJournal entry\nposter",
+                        "coordinate": "K6"
+                    },
+                    "L": {
+                        "value": "분개 검토자\nJournal entry\nreviewer",
+                        "coordinate": "L6"
+                    },
+                    "M": {
+                        "value": "분개 금액\nJournal entry\namount",
+                        "coordinate": "M6"
+                    },
+                    "N": {
+                        "value": "분개의 성격 및 설명\n(상세내역)\nNature and description of entry\n(details)",
+                        "coordinate": "N6"
+                    },
+                    "O": {
+                        "value": "기초 거래나 사건의 근거자료 (예: 분개의 증빙, 송장, 선적서류)\nSupport for underlying transaction or event (e.g., journal voucher with supporting, invoice, shipping document)",
+                        "coordinate": "O6"
+                    },
+                    "P": {
+                        "value": "근거문서 참조번호\nSupporting document reference number",
+                        "coordinate": "P6"
+                    },
+                    "Q": {
+                        "value": "분개의 성격(즉, 타당한 사업적 목적)과 금액이 적합함\n(Y/N)\nNature (i.e. valid business purpose) and amount of journal entry are appropriate\n(Y/N)",
+                        "coordinate": "Q6"
+                    },
+                    "R": {
+                        "value": "적합한 계정 coding\n(Y/N)\nAppropriate account coding\n(Y/N)",
+                        "coordinate": "R6"
+                    },
+                    "S": {
+                        "value": "분개는 적합한 담당자가 승인함\n(Y/N)\nJournal entry has been approved by an appropriate individual\n(Y/N)",
+                        "coordinate": "S6"
+                    },
+                    "T": {
+                        "value": "비고\nNotes",
+                        "coordinate": "T6"
+                    }
+                }
+            },
+            {
+                "row_index": 7,
+                "content": {
+                    "B": {
+                        "value": 1,
+                        "coordinate": "B8"
+                    }
+                }
+            },
+            {
+                "row_index": 8,
+                "content": {
+                    "B": {
+                        "value": 2,
+                        "coordinate": "B9"
+                    }
+                }
+            },
+            {
+                "row_index": 9,
+                "content": {
+                    "B": {
+                        "value": 3,
+                        "coordinate": "B10"
+                    }
+                }
+            },
+            {
+                "row_index": 10,
+                "content": {
+                    "B": {
+                        "value": 4,
+                        "coordinate": "B11"
+                    }
+                }
+            },
+            {
+                "row_index": 11,
+                "content": {
+                    "B": {
+                        "value": 5,
+                        "coordinate": "B12"
+                    }
+                }
+            },
+            {
+                "row_index": 12,
+                "content": {
+                    "B": {
+                        "value": 6,
+                        "coordinate": "B13"
+                    }
+                }
+            },
+            {
+                "row_index": 13,
+                "content": {
+                    "B": {
+                        "value": 7,
+                        "coordinate": "B14"
+                    }
+                }
+            },
+            {
+                "row_index": 14,
+                "content": {
+                    "B": {
+                        "value": 8,
+                        "coordinate": "B15"
+                    }
+                }
+            },
+            {
+                "row_index": 15,
+                "content": {
+                    "B": {
+                        "value": 9,
+                        "coordinate": "B16"
+                    }
+                }
+            },
+            {
+                "row_index": 16,
+                "content": {
+                    "B": {
+                        "value": 10,
+                        "coordinate": "B17"
+                    }
+                }
+            },
+            {
+                "row_index": 17,
+                "content": {
+                    "B": {
+                        "value": "etc.",
+                        "coordinate": "B18"
+                    }
+                }
+            }
+        ]
+    }
+}

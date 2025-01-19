@@ -1,0 +1,1413 @@
+{
+    "metadata": {
+        "file_name": "162e3276-2f83-ef11-a864-000d3a803985.xlsm",
+        "total_sheets": 3,
+        "sheet_names": [
+            "Library procedures",
+            "Lead schedule",
+            "Reconciliation & Confirms"
+        ],
+        "sheets_info": {
+            "Library procedures": {
+                "max_row": 644,
+                "max_column": 21,
+                "has_merged_cells": true,
+                "sheet_state": "visible"
+            },
+            "Lead schedule": {
+                "max_row": 19,
+                "max_column": 10,
+                "has_merged_cells": true,
+                "sheet_state": "visible"
+            },
+            "Reconciliation & Confirms": {
+                "max_row": 60,
+                "max_column": 36,
+                "has_merged_cells": true,
+                "sheet_state": "visible"
+            }
+        },
+        "last_modified": "2025-01-19 15:25:12"
+    },
+    "sheets": {
+        "Library procedures": [
+            {
+                "row_index": 0,
+                "content": {
+                    "B": {
+                        "value": "             Smaller entity audit - 현금 및 현금성자산\n                Smaller entity audit - Cash and cash equivalents",
+                        "coordinate": "B1"
+                    }
+                }
+            },
+            {
+                "row_index": 2,
+                "content": {
+                    "B": {
+                        "value": "Global Procedures & Results\n본 EGA는 해당 FSLI에 가장 일반적으로 적용되는 실증 절차들을 포함하고 있음.\n사업프로세스에 대한 감사인의 이해와 평가된 중요왜곡표시위험에 따라 필요한 경우, 하단 버튼을 선택하여 테스트를 추가함.\nThis EGA includes the most commonly applicable substantive procedures for this FSLI.\nSelect the button(s) below for additional testing, based on our understanding of the business process and assessed risks of material misstatement.\n\n\n\n\n필요한 경우, EGA fly-in pane에서 추가 EGA를 활용할 수 있음. \nIf necessary additional EGAs are also available from the EGA fly-in pane.",
+                        "coordinate": "B3"
+                    },
+                    "I": {
+                        "value": "Links\n",
+                        "coordinate": "I3"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L3"
+                    }
+                }
+            },
+            {
+                "row_index": 3,
+                "content": {
+                    "B": {
+                        "value": "총괄표 및 subledger와의 대사 - (C, A, CO, E/O, R&O, P&D)\nLead schedule and subledger reconciliation - (C, A, CO, E/O, R&O, P&D)",
+                        "coordinate": "B4"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L4"
+                    }
+                }
+            },
+            {
+                "row_index": 5,
+                "content": {
+                    "B": {
+                        "value": "1.",
+                        "coordinate": "B6"
+                    },
+                    "C": {
+                        "value": "탭 'Lead schedule'에서 총괄표를 작성함.\nPrepared a lead schedule in tab 'Lead schedule'.",
+                        "coordinate": "C6"
+                    },
+                    "I": {
+                        "value": "Lead schedule",
+                        "coordinate": "I6"
+                    }
+                }
+            },
+            {
+                "row_index": 7,
+                "content": {
+                    "B": {
+                        "value": "2.",
+                        "coordinate": "B8"
+                    },
+                    "C": {
+                        "value": "탭 'Reconciliation & Confirms'에서 은행계정조정표와 은행 거래 명세서를 입수함. 잔액과 조정항목들을 근거 문서와 대사함.\nObtained bank reconciliations and bank statements in tab 'Reconciliation & Confirms'. Agreed balances and reconciling items to supporting documentation.",
+                        "coordinate": "C8"
+                    },
+                    "I": {
+                        "value": "Reconciliation & Confirms",
+                        "coordinate": "I8"
+                    }
+                }
+            },
+            {
+                "row_index": 9,
+                "content": {
+                    "B": {
+                        "value": "은행 등 금융기관과의 거래와 약정을 조회확인한다 - (C, A, CO, E/O, R&O, P&D)\nConfirm bank accounts - (C, A, CO, E/O, R&O, P&D)",
+                        "coordinate": "B10"
+                    }
+                }
+            },
+            {
+                "row_index": 11,
+                "content": {
+                    "B": {
+                        "value": "3.",
+                        "coordinate": "B12"
+                    },
+                    "C": {
+                        "value": "보고기간말 시점의 은행 계정 잔액을 테스트함 (감사 전략을 포함하고 있는 Planning EGA에서 결정된 전략에 따라서).\nTested bank account balances at period end (based on strategy determined in the Planning EGA covering our audit strategy and plan).",
+                        "coordinate": "C12"
+                    }
+                }
+            },
+            {
+                "row_index": 12,
+                "content": {
+                    "C": {
+                        "value": "해당 항목에 체크함:\nChecked those that apply: ",
+                        "coordinate": "C13"
+                    }
+                }
+            },
+            {
+                "row_index": 13,
+                "content": {
+                    "D": {
+                        "value": "탭 'Reconciliation & Confirms'에서 외부조회 절차를 수행함\nPerformed external confirmation procedures in tab 'Reconciliation & Confirms'",
+                        "coordinate": "D14"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L14"
+                    }
+                }
+            },
+            {
+                "row_index": 14,
+                "content": {
+                    "D": {
+                        "value": "해당 항목에 체크함:\nChecked those that apply: ",
+                        "coordinate": "D15"
+                    }
+                }
+            },
+            {
+                "row_index": 15,
+                "content": {
+                    "E": {
+                        "value": "조회확인 절차의 다음 각 요소들에 대한 통제를 유지함:\nControl maintained over each of the following elements of the confirmation process",
+                        "coordinate": "E16"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L16"
+                    }
+                }
+            },
+            {
+                "row_index": 16,
+                "content": {
+                    "E": {
+                        "value": "",
+                        "coordinate": "E17"
+                    },
+                    "F": {
+                        "value": "조회서에 포함할 정보를 결정\nDetermined the information to be included in the confirmation",
+                        "coordinate": "F17"
+                    }
+                }
+            },
+            {
+                "row_index": 17,
+                "content": {
+                    "E": {
+                        "value": "",
+                        "coordinate": "E18"
+                    },
+                    "F": {
+                        "value": "적합한 조회확인 당사자를 선택 (예. 조회할 정보에 대하여 지식이 있다고 engagement team 이 믿는 조회 대상자)\nSelected the appropriate confirming party (i.e., a confirming party the engagement team believes is knowledgeable about the information to be confirmed)",
+                        "coordinate": "F18"
+                    }
+                }
+            },
+            {
+                "row_index": 19,
+                "content": {
+                    "E": {
+                        "value": "",
+                        "coordinate": "E20"
+                    },
+                    "F": {
+                        "value": "다음을 포함한, 조회확인 절차를 설계:\nDesigned the confirmation, including:",
+                        "coordinate": "F20"
+                    }
+                }
+            },
+            {
+                "row_index": 20,
+                "content": {
+                    "F": {
+                        "value": "-",
+                        "coordinate": "F21"
+                    },
+                    "G": {
+                        "value": "적절한 양식의 사용\nUsing appropriate template",
+                        "coordinate": "G21"
+                    }
+                }
+            },
+            {
+                "row_index": 21,
+                "content": {
+                    "F": {
+                        "value": "-",
+                        "coordinate": "F22"
+                    },
+                    "G": {
+                        "value": "조회서를 보내는 데 사용된 주소의 유형과 같은 요소들을 고려하여 테스트 성격과 범위를 결정하는 것을 포함하여, 조회서의 일부 또는 모든 주소의 적정성을 테스트 (탭 'Reconciliation & Confirms'에서 수행)\nTesting the validity of some or all of the addresses on the confirmation requests (in tab 'Reconciliation & Confirms'), including determining the nature and extent of testing by considering factors such as the type of addresses being used to send the confirmation requests to",
+                        "coordinate": "G22"
+                    }
+                }
+            },
+            {
+                "row_index": 23,
+                "content": {
+                    "F": {
+                        "value": "-",
+                        "coordinate": "F24"
+                    },
+                    "G": {
+                        "value": "답변은 PwC engagement team으로 직접 회신해달라고 하는 내용을 포함\nIncluding return information indicating responses are to be sent directly to the PwC engagement team",
+                        "coordinate": "G24"
+                    }
+                }
+            },
+            {
+                "row_index": 24,
+                "content": {
+                    "E": {
+                        "value": "",
+                        "coordinate": "E25"
+                    },
+                    "F": {
+                        "value": "조회확인 당사자에게 직접 조회서를 발송\nSent the confirmation directly to the confirming party",
+                        "coordinate": "F25"
+                    }
+                }
+            },
+            {
+                "row_index": 25,
+                "content": {
+                    "E": {
+                        "value": "외부조회 요청에 대한 통제를 유지할 수 없으므로, 감사 계획을 수정함\nControl could not be maintained over external confirmation requests and therefore revised audit plan developed",
+                        "coordinate": "E26"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L26"
+                    }
+                }
+            },
+            {
+                "row_index": 26,
+                "content": {
+                    "E": {
+                        "value": "세부내역:\nDetails: ",
+                        "coordinate": "E27"
+                    }
+                }
+            },
+            {
+                "row_index": 29,
+                "content": {
+                    "E": {
+                        "value": "경영진이 외부조회 발송을 거부함\nManagement refused to allow external confirmations to be sent",
+                        "coordinate": "E30"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L30"
+                    }
+                }
+            },
+            {
+                "row_index": 30,
+                "content": {
+                    "E": {
+                        "value": "다음의 각 절차를 수행함:\nPerformed each of the following: ",
+                        "coordinate": "E31"
+                    }
+                }
+            },
+            {
+                "row_index": 31,
+                "content": {
+                    "E": {
+                        "value": "",
+                        "coordinate": "E32"
+                    },
+                    "F": {
+                        "value": "경영진의 거부 사유에 관하여 경영진과 인터뷰함\nInquired with management as to the rationale for management's refusal",
+                        "coordinate": "F32"
+                    }
+                }
+            },
+            {
+                "row_index": 32,
+                "content": {
+                    "E": {
+                        "value": "",
+                        "coordinate": "E33"
+                    },
+                    "F": {
+                        "value": "경영진이 거부하는 경우 관련된 상황의 합리성에 대한 증거를 입수하고 평가함\nObtained evidence and evaluated the reasonableness of the circumstances surrounding management's refusal",
+                        "coordinate": "F33"
+                    }
+                }
+            },
+            {
+                "row_index": 33,
+                "content": {
+                    "E": {
+                        "value": "",
+                        "coordinate": "E34"
+                    },
+                    "F": {
+                        "value": "위험평가 및 감사계획에 미치는 영향을 평가함\nAssessed implications on risk assessment and audit plan",
+                        "coordinate": "F34"
+                    }
+                }
+            },
+            {
+                "row_index": 34,
+                "content": {
+                    "E": {
+                        "value": "",
+                        "coordinate": "E35"
+                    },
+                    "F": {
+                        "value": "대체적 감사절차를 수행함\nPerformed alternative audit procedures",
+                        "coordinate": "F35"
+                    }
+                }
+            },
+            {
+                "row_index": 35,
+                "content": {
+                    "E": {
+                        "value": "세부내역(예, 인터뷰 대상자의 이름과 인터뷰 일자, 평가 내용, 수행한 대체적 절차):\nDetails (e.g., name and date of inquiries, assessment made, alternative procedures performed):",
+                        "coordinate": "E36"
+                    }
+                }
+            },
+            {
+                "row_index": 38,
+                "content": {
+                    "F": {
+                        "value": "경영진의 거부가 타당하고 신뢰성 있는 감사증거를 입수함, 또는\nManagement's refusal was reasonable and reliable audit evidence was obtained, or",
+                        "coordinate": "F39"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L39"
+                    }
+                }
+            },
+            {
+                "row_index": 39,
+                "content": {
+                    "F": {
+                        "value": "경영진의 거부가 타당하지 않거나 신뢰성 있는 감사증거를 입수할 수 없음\nManagement's refusal was not reasonable or reliable audit evidence could not be obtained",
+                        "coordinate": "F40"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L40"
+                    }
+                }
+            },
+            {
+                "row_index": 40,
+                "content": {
+                    "F": {
+                        "value": "다음의 각 절차를 수행함:\nPerformed each of the following:",
+                        "coordinate": "F41"
+                    }
+                }
+            },
+            {
+                "row_index": 41,
+                "content": {
+                    "F": {
+                        "value": "",
+                        "coordinate": "F42"
+                    },
+                    "G": {
+                        "value": "지배기구와 커뮤니케이션을 수행함\nCommunicated to those charged with governance",
+                        "coordinate": "G42"
+                    }
+                }
+            },
+            {
+                "row_index": 42,
+                "content": {
+                    "F": {
+                        "value": "",
+                        "coordinate": "F43"
+                    },
+                    "G": {
+                        "value": "감사보고서에 미치는 영향을 판단함\nDetermined the implications for the audit and audit report",
+                        "coordinate": "G43"
+                    }
+                }
+            },
+            {
+                "row_index": 43,
+                "content": {
+                    "F": {
+                        "value": "세부내역(예, 커뮤니케이션 내역, 보고서 수정사항):\nDetails (e.g., communications, modifications to report):",
+                        "coordinate": "F44"
+                    }
+                }
+            },
+            {
+                "row_index": 46,
+                "content": {
+                    "D": {
+                        "value": "EGA 'Confirm bank accounts (PwC Confirmations)'에서 외부조회 절차를 수행함\nPerformed external confirmation procedures in EGA 'Confirm bank accounts (PwC Confirmations)'",
+                        "coordinate": "D47"
+                    },
+                    "L": {
+                        "value": false,
+                        "coordinate": "L47"
+                    }
+                }
+            },
+            {
+                "row_index": 48,
+                "content": {
+                    "B": {
+                        "value": "사용이 제한된 현금을 테스트한다\nTest restricted cash - (P&D)",
+                        "coordinate": "B49"
+                    }
+                }
+            },
+            {
+                "row_index": 50,
+                "content": {
+                    "C": {
+                        "value": "사용이 제한된 현금의 표시와 공시가 적절한지 테스트함.\nTested the appropriateness of presentation and disclosure of restricted cash.",
+                        "coordinate": "C51"
+                    }
+                }
+            },
+            {
+                "row_index": 51,
+                "content": {
+                    "C": {
+                        "value": "수행한 업무의 세부내역:\nDetails of work performed:",
+                        "coordinate": "C52"
+                    }
+                }
+            },
+            {
+                "row_index": 54,
+                "content": {
+                    "B": {
+                        "value": "외화의 환산을 테스트한다 - (V)\nTest translation of foreign currency - (V)",
+                        "coordinate": "B55"
+                    }
+                }
+            },
+            {
+                "row_index": 56,
+                "content": {
+                    "C": {
+                        "value": "탭 'Foreign currency'에서 외부로부터 입수한 마감환율을 사용하여 외화잔액을 재계산함.\nRecalculated foreign currency balances using closing rates obtained from external sources in tab 'Foreign currency'.",
+                        "coordinate": "C57"
+                    }
+                }
+            },
+            {
+                "row_index": 58,
+                "content": {
+                    "B": {
+                        "value": "표시와 공시정보를 검증한다 - (P&D)\nVerify presentation and disclosure - (P&D)",
+                        "coordinate": "B59"
+                    }
+                }
+            },
+            {
+                "row_index": 60,
+                "content": {
+                    "B": {
+                        "value": "4.",
+                        "coordinate": "B61"
+                    },
+                    "C": {
+                        "value": "EGA '*재무제표와 관련된 절차들'에서 표시, 분류 및 공시사항을 테스트함.\nTesting of presentation, classification and any disclosures performed in EGA '*Financial statement related procedures'.",
+                        "coordinate": "C61"
+                    }
+                }
+            },
+            {
+                "row_index": 62,
+                "content": {
+                    "B": {
+                        "value": "필요한 경우, 추가 내용을 문서화\nAdditional documentation (only if required)",
+                        "coordinate": "B63"
+                    }
+                }
+            },
+            {
+                "row_index": 64,
+                "content": {
+                    "L": {
+                        "value": false,
+                        "coordinate": "L65"
+                    }
+                }
+            },
+            {
+                "row_index": 65,
+                "content": {
+                    "C": {
+                        "value": "추가 내용을 문서화:\nAdditional documentation:",
+                        "coordinate": "C66"
+                    }
+                }
+            },
+            {
+                "row_index": 70,
+                "content": {
+                    "B": {
+                        "value": "Territory Supplemental Procedures & Results",
+                        "coordinate": "B71"
+                    },
+                    "I": {
+                        "value": "Links",
+                        "coordinate": "I71"
+                    }
+                }
+            }
+        ],
+        "Lead schedule": [
+            {
+                "row_index": 0,
+                "content": {
+                    "B": {
+                        "value": "총괄표\nLead schedule",
+                        "coordinate": "B1"
+                    }
+                }
+            },
+            {
+                "row_index": 2,
+                "content": {
+                    "B": {
+                        "value": "잔액이 총계정원장 및 전기 조서와 일치하는지 확인함\nAgreed balances to the general ledger and prior period workpapers",
+                        "coordinate": "B3"
+                    },
+                    "E": {
+                        "value": "식별된 차이조정 항목이 없음 (No reconciling items noted)",
+                        "coordinate": "E3"
+                    }
+                }
+            },
+            {
+                "row_index": 4,
+                "content": {
+                    "E": {
+                        "value": "합계 금액 및 근거:\nTotal amount and rationale:",
+                        "coordinate": "E5"
+                    }
+                }
+            },
+            {
+                "row_index": 6,
+                "content": {
+                    "E": {
+                        "value": "합계 금액 및 수행한 테스트:\nTotal amount and testing performed:",
+                        "coordinate": "E7"
+                    }
+                }
+            },
+            {
+                "row_index": 9,
+                "content": {
+                    "B": {
+                        "value": "총괄표의 계산의 정확성을 테스트함\nTested mathematical accuracy of lead schedule",
+                        "coordinate": "B10"
+                    },
+                    "E": {
+                        "value": "스프레드 시트의 계산식을 검증함 (Verified spreadsheet formula) ",
+                        "coordinate": "E10"
+                    }
+                }
+            },
+            {
+                "row_index": 11,
+                "content": {
+                    "E": {
+                        "value": "수행한 기타 절차의 세부내역:\nDetails of other procedures performed:",
+                        "coordinate": "E12"
+                    }
+                }
+            },
+            {
+                "row_index": 14,
+                "content": {
+                    "B": {
+                        "value": "DOCUMENTATION OF ACCOUNTS ",
+                        "coordinate": "B15"
+                    }
+                }
+            },
+            {
+                "row_index": 15,
+                "content": {
+                    "B": {
+                        "value": "재무상태표 계정\\계정명\n(가능한 경우, Aura의 총괄표 화면을 총괄표로 이곳에 붙임)\nFinancial Statement Line Items\\Accounts\n(If applicable, place cursor here to paste lead schedule from Aura View Lead Schedule window)\n",
+                        "coordinate": "B16"
+                    },
+                    "C": {
+                        "value": "당기 20XX\n(GL과 일치함)\nCurrent Period 20XX\n(agreed to GL)",
+                        "coordinate": "C16"
+                    },
+                    "D": {
+                        "value": "조정사항\nAdjustments ",
+                        "coordinate": "D16"
+                    },
+                    "E": {
+                        "value": "조정 후 당기 20xX\nAdj. Current Period 20XX\n",
+                        "coordinate": "E16"
+                    },
+                    "F": {
+                        "value": "비교연도 20XX\n(전기 조서와 일치함)\nComparative 20XX\n(agreed to prior period workpapers)",
+                        "coordinate": "F16"
+                    },
+                    "G": {
+                        "value": "변동\nVariance ",
+                        "coordinate": "G16"
+                    },
+                    "H": {
+                        "value": "변동비율 %\nVariance %",
+                        "coordinate": "H16"
+                    },
+                    "I": {
+                        "value": "링크\nLink",
+                        "coordinate": "I16"
+                    },
+                    "J": {
+                        "value": "설명\nComments",
+                        "coordinate": "J16"
+                    }
+                }
+            },
+            {
+                "row_index": 16,
+                "content": {
+                    "B": {
+                        "value": "3020001, 3020002 - 현금및현금성자산",
+                        "coordinate": "B17"
+                    },
+                    "C": {
+                        "value": 1420012470.75,
+                        "coordinate": "C17"
+                    },
+                    "D": {
+                        "value": 0,
+                        "coordinate": "D17"
+                    },
+                    "E": {
+                        "value": 1420012470.75,
+                        "coordinate": "E17"
+                    },
+                    "F": {
+                        "value": 1031085347,
+                        "coordinate": "F17"
+                    },
+                    "G": {
+                        "value": 388927123.75,
+                        "coordinate": "G17"
+                    },
+                    "H": {
+                        "value": 0.37720167867927235,
+                        "coordinate": "H17"
+                    }
+                }
+            },
+            {
+                "row_index": 17,
+                "content": {
+                    "B": {
+                        "value": "   Total ",
+                        "coordinate": "B18"
+                    },
+                    "C": {
+                        "value": 1420012470.75,
+                        "coordinate": "C18"
+                    },
+                    "D": {
+                        "value": 0,
+                        "coordinate": "D18"
+                    },
+                    "E": {
+                        "value": 1420012470.75,
+                        "coordinate": "E18"
+                    },
+                    "F": {
+                        "value": 1031085347,
+                        "coordinate": "F18"
+                    },
+                    "G": {
+                        "value": 388927123.75,
+                        "coordinate": "G18"
+                    },
+                    "H": {
+                        "value": 0.37720167867927235,
+                        "coordinate": "H18"
+                    }
+                }
+            }
+        ],
+        "Reconciliation & Confirms": [
+            {
+                "row_index": 0,
+                "content": {
+                    "B": {
+                        "value": "은행계정조정 및 조회확인을 테스트한다\nTest bank reconciliations and confirmations",
+                        "coordinate": "B1"
+                    }
+                }
+            },
+            {
+                "row_index": 1,
+                "content": {
+                    "B": {
+                        "value": "샘플 건을 테스트하는 경우, Aura ToD form을 추가함\nAdded an Aura ToD form where a selection of items are to be tested",
+                        "coordinate": "B2"
+                    }
+                }
+            },
+            {
+                "row_index": 3,
+                "content": {
+                    "B": {
+                        "value": "차이조정의 계산의 정확성을 테스트 하였음\nTested mathematical accuracy of the reconciliations",
+                        "coordinate": "B4"
+                    },
+                    "F": {
+                        "value": "[Please select]",
+                        "coordinate": "F4"
+                    }
+                }
+            },
+            {
+                "row_index": 5,
+                "content": {
+                    "F": {
+                        "value": "수행한 기타 절차의 세부내역:\nDetails of other procedures performed:",
+                        "coordinate": "F6"
+                    }
+                }
+            },
+            {
+                "row_index": 8,
+                "content": {
+                    "B": {
+                        "value": "은행계정조정표와 은행 거래 명세서에 비경상적인 항목이 있는지 스캐닝하고, 다음을 식별하였음\nScanned bank reconciliations and bank statements for unusual items and identified",
+                        "coordinate": "B9"
+                    },
+                    "F": {
+                        "value": "장기 미결제 수표 또는 부도 수표\nLong outstanding or dishonored checks",
+                        "coordinate": "F9"
+                    },
+                    "AJ": {
+                        "value": false,
+                        "coordinate": "AJ9"
+                    }
+                }
+            },
+            {
+                "row_index": 9,
+                "content": {
+                    "F": {
+                        "value": "세부내역:\nDetails:",
+                        "coordinate": "F10"
+                    }
+                }
+            },
+            {
+                "row_index": 12,
+                "content": {
+                    "F": {
+                        "value": "계좌 간 유의적인 자금 이체\nSignificant transfers between accounts",
+                        "coordinate": "F13"
+                    },
+                    "AJ": {
+                        "value": false,
+                        "coordinate": "AJ13"
+                    }
+                }
+            },
+            {
+                "row_index": 13,
+                "content": {
+                    "F": {
+                        "value": "세부내역:\nDetails:",
+                        "coordinate": "F14"
+                    }
+                }
+            },
+            {
+                "row_index": 16,
+                "content": {
+                    "F": {
+                        "value": "기말 이전에 발행되어 기말 이후에 제공된 수표 (즉, 보유 수표)\nChecks written before period end and released after period end (i.e. held checks) ",
+                        "coordinate": "F17"
+                    },
+                    "AJ": {
+                        "value": false,
+                        "coordinate": "AJ17"
+                    }
+                }
+            },
+            {
+                "row_index": 17,
+                "content": {
+                    "F": {
+                        "value": "세부내역:\nDetails:",
+                        "coordinate": "F18"
+                    }
+                }
+            },
+            {
+                "row_index": 20,
+                "content": {
+                    "F": {
+                        "value": "현금에 포함되어 있으나 물리적으로 재무제표일 이후에 수령한 입금액\nDeposits physically received after period end and included in cash",
+                        "coordinate": "F21"
+                    },
+                    "AJ": {
+                        "value": false,
+                        "coordinate": "AJ21"
+                    }
+                }
+            },
+            {
+                "row_index": 21,
+                "content": {
+                    "F": {
+                        "value": "세부내역:\nDetails:",
+                        "coordinate": "F22"
+                    }
+                }
+            },
+            {
+                "row_index": 24,
+                "content": {
+                    "F": {
+                        "value": "외화 잔액\nForeign currency balances",
+                        "coordinate": "F25"
+                    },
+                    "AJ": {
+                        "value": false,
+                        "coordinate": "AJ25"
+                    }
+                }
+            },
+            {
+                "row_index": 25,
+                "content": {
+                    "F": {
+                        "value": "세부내역:\nDetails:",
+                        "coordinate": "F26"
+                    }
+                }
+            },
+            {
+                "row_index": 28,
+                "content": {
+                    "F": {
+                        "value": "기타\nOther",
+                        "coordinate": "F29"
+                    },
+                    "AJ": {
+                        "value": false,
+                        "coordinate": "AJ29"
+                    }
+                }
+            },
+            {
+                "row_index": 29,
+                "content": {
+                    "F": {
+                        "value": "세부내역:\nDetails:",
+                        "coordinate": "F30"
+                    }
+                }
+            },
+            {
+                "row_index": 32,
+                "content": {
+                    "F": {
+                        "value": "비경상적인 잔액이 발견되지 않음\nNo unusual balances noted",
+                        "coordinate": "F33"
+                    },
+                    "AJ": {
+                        "value": false,
+                        "coordinate": "AJ33"
+                    }
+                }
+            },
+            {
+                "row_index": 34,
+                "content": {
+                    "B": {
+                        "value": "Note - Examples of indications that the response may not be reliable include the following:\n- Confirmation was not received directly by the auditor\n- Confirmation appears not to come from the originally intended confirming party\n- Electronic documents are not in an unalterable PDF format\n- Source email address or facsimile details inconsistent with expectations\n- Confirmation is hand delivered to the auditor",
+                        "coordinate": "B35"
+                    }
+                }
+            },
+            {
+                "row_index": 40,
+                "content": {
+                    "B": {
+                        "value": "DOCUMENTATION OF ACCOUNTS ",
+                        "coordinate": "B41"
+                    },
+                    "H": {
+                        "value": "DOCUMENTATION OF TESTING - RECONCILIATIONS",
+                        "coordinate": "H41"
+                    },
+                    "Q": {
+                        "value": "DOCUMENTATION OF TESTING - CONFIRMATIONS",
+                        "coordinate": "Q41"
+                    }
+                }
+            },
+            {
+                "row_index": 41,
+                "content": {
+                    "B": {
+                        "value": "G/L 계정번호\nG/L account number",
+                        "coordinate": "B42"
+                    },
+                    "C": {
+                        "value": "G/L 계정명칭\nG/L account \nname",
+                        "coordinate": "C42"
+                    },
+                    "D": {
+                        "value": "G/L 계정잔액 (보고통화)\nG/L account\nbalance\nin reporting currency",
+                        "coordinate": "D42"
+                    },
+                    "E": {
+                        "value": "G/L 계정잔액 (표시통화)\nG/L account\nbalance\nin denominated currency",
+                        "coordinate": "E42"
+                    },
+                    "F": {
+                        "value": "은행계정 설명\nBank account description",
+                        "coordinate": "F42"
+                    },
+                    "G": {
+                        "value": "통화\nCurrency",
+                        "coordinate": "G42"
+                    },
+                    "H": {
+                        "value": "은행계정조정표 상 표시통화 장부잔액\nBook balance \nper bank reconciliation in denominated currency",
+                        "coordinate": "H42"
+                    },
+                    "I": {
+                        "value": "은행계정조정표 상 표시통화 장부잔액과 G/L 상 표시통화 계정잔액의 차이\nDifference between book balance per bank reconciliation and amount per G/L \nin denominated currency",
+                        "coordinate": "I42"
+                    },
+                    "J": {
+                        "value": "미결제수표\n(+)\nOutstanding checks\n(+)",
+                        "coordinate": "J42"
+                    },
+                    "K": {
+                        "value": "미달예금\n(-)\nDeposits in transit\n(-)",
+                        "coordinate": "K42"
+                    },
+                    "L": {
+                        "value": "기타조정항목\n(+/-)\nOther reconciling items\n(+/-)",
+                        "coordinate": "L42"
+                    },
+                    "M": {
+                        "value": "은행계정조정표 상 은행 잔액\nBank balance\nper bank reconciliation",
+                        "coordinate": "M42"
+                    },
+                    "N": {
+                        "value": "은행 당좌거래명세 상 은행 잔액\nBank balance\nper bank statement\n",
+                        "coordinate": "N42"
+                    },
+                    "O": {
+                        "value": "은행계정조정표 상 은행잔액과 은행의 당좌거래명세 상 은행잔액의 차이\nDifference between bank balance per bank reconciliation and amount per bank statement ",
+                        "coordinate": "O42"
+                    },
+                    "P": {
+                        "value": "비고 - 조정사항 테스트\nNotes - Reconciliation testing",
+                        "coordinate": "P42"
+                    },
+                    "Q": {
+                        "value": "조회 요청 발송\nConfirmation request sent",
+                        "coordinate": "Q42"
+                    },
+                    "U": {
+                        "value": "조회 회신\nConfirmation received",
+                        "coordinate": "U42"
+                    },
+                    "AH": {
+                        "value": "회수되지 않은 경우 대체적인 절차\n(N/A 또는 링크 첨부)\nAlternative procedures when no response received\n(N/A or provide link)",
+                        "coordinate": "AH42"
+                    },
+                    "AI": {
+                        "value": "비고 - 조회확인 테스트\nNotes - Confirmation testing",
+                        "coordinate": "AI42"
+                    }
+                }
+            },
+            {
+                "row_index": 42,
+                "content": {
+                    "Q": {
+                        "value": "적정성 테스트 절차의 성격과 범위를 결정함에 있어 고려할 조회서를 보내는 데 사용한 방법 (해당되는 경우, 이메일 주소의 유형 포함)\nMethod used to send confirmation request (including type of email address, if applicable) that is to be considered when determining the nature and extent of validation testing procedures to be performed",
+                        "coordinate": "Q43"
+                    },
+                    "R": {
+                        "value": "주소 검증 대상으로 선택?(Y/N)\nSelected for address verification\n(Y/N)",
+                        "coordinate": "R43"
+                    },
+                    "S": {
+                        "value": "검증 방법\nMethod of validation",
+                        "coordinate": "S43"
+                    },
+                    "T": {
+                        "value": "검증 절차의 세부 내역\n(예. 주소 검증을 위해 확인한 조회대상 웹사이트 및 페이지의 세부내역, 또는 연락한 인원의 이름 및 주소 확인 결과를 포함한 전화 질의의 세부 내역)\nDetails of validation procedures \n(e.g., details of confirming party website and page inspected to validate address, or details of telephone inquiry, including name of person contacted and conclusion reached on validity of address) ",
+                        "coordinate": "T43"
+                    },
+                    "U": {
+                        "value": "회신된 조회서 상 금액\nAmount per confirmation received",
+                        "coordinate": "U43"
+                    },
+                    "V": {
+                        "value": "조회서 상 금액과 은행거래명세서 상 은행계정잔액의 차이\nDifference between amount per confirmation and bank balance per bank statement",
+                        "coordinate": "V43"
+                    },
+                    "W": {
+                        "value": "회신된 조회서에 포함된 고객의 추가 기재사항에 대한 후속조치 (상세내용, 또는 N/A)\nFollow up of additional customer comments on confirmation\n(details, or N/A)",
+                        "coordinate": "W43"
+                    },
+                    "X": {
+                        "value": "회수 방법 (원본을 우편으로 회수, 이메일, 팩스, 등)\nFormat of receipt \n(mailed original, email, fax, etc)\n",
+                        "coordinate": "X43"
+                    },
+                    "Y": {
+                        "value": "회수 방법과 무관하게, 조회 회신을 신뢰할 수 없는 징후가 있는지?\n(Yes/No - Yes라면, 세부 내역을 문서화)\n Irrespective of the format of receipt, were there any indications that the confirmation response may not be reliable?\n(Yes/No - If Yes, provide details)",
+                        "coordinate": "Y43"
+                    },
+                    "Z": {
+                        "value": "(a) 전자적인 방법으로 조회서를 회수하였거나 (이메일 또는 팩스) (b) 조회 회신을 신뢰할 수 없음을 나타내는 징후가  있는 경우, 조회의 신뢰성을 확인하기 위해 수행한 절차의 성격\nNature of procedures performed to verify authenticity of response when either (a) response received electronically (email or fax) or (b) where indicators that the response may not be reliable are identified ",
+                        "coordinate": "Z43"
+                    },
+                    "AA": {
+                        "value": "필요한 경우, 신뢰성 검증\nVerification of authenticity, if required",
+                        "coordinate": "AA43"
+                    },
+                    "AG": {
+                        "value": "해당되는 경우, 기타 신뢰성 검증 절차\nOther authenticity procedures, if applicable",
+                        "coordinate": "AG43"
+                    }
+                }
+            },
+            {
+                "row_index": 43,
+                "content": {
+                    "AA": {
+                        "value": "연락 대상자의 이름\nName of person contacted",
+                        "coordinate": "AA44"
+                    },
+                    "AB": {
+                        "value": "조회서 답변 작성자의 이름\nName of the person who completed the confirmation",
+                        "coordinate": "AB44"
+                    },
+                    "AC": {
+                        "value": "해당되는 경우, 회신자가 독립적이지 않거나, 적격하지 않거나, 회신을 할 지식과 권한이 없을 수 있다는 징후가 있는지 평가 \nEvaluation of whether there are indications that the respondent may not be independent, competent, knowledgeable or authorized to respond, if applicable",
+                        "coordinate": "AC44"
+                    },
+                    "AD": {
+                        "value": "조회서를 회신한 이후로 조회서의 내용에 변경이 없었는지에 대한 검증\nVerification that there were no changes to the confirmation since the date they were provided ",
+                        "coordinate": "AD44"
+                    },
+                    "AE": {
+                        "value": "회신에 포함된 고객 특유의 주요 정보에 대한 검증 (예: 보고서의 XX 라인 항목, 계정 잔액, 특정 조건)\nVerification of certain key client-specific information contained in the response (e.g., the report has XX line items, account balances, specific terms)",
+                        "coordinate": "AE44"
+                    },
+                    "AF": {
+                        "value": "회신의 원천과 내용이 검증되었고 회신이 권한 있는 개인으로부터 입수되었다고 결론 내림 (Y/N 그리고 N인 경우 상세내역 문서화)\nConcluded that the source and contents of the response were verified and the response was received from an authorized individual\n(Y/N and provide details when N)",
+                        "coordinate": "AF44"
+                    },
+                    "AG": {
+                        "value": "조회 대상자의 신뢰성을 검증하기 위해 수행된 기타 절차 및 조회 정보에 대한 세부 내역, 그리고 해당 절차로 충분하다고 판단한 우리의 근거 (전자적 회신의 경우, 중간에서 가로채이거나 변조가 발생할 위험 및 회신자의 원천에 대한 위험이 충분히 다루어졌다고 판단한 근거를 포함)\nDetails of other procedures performed to verify authenticity of the confirming party and confirmation information, and our reasons for being satisfied \n(including, for electronic responses, how we are satisfied that interception and alteration risks and proof of origin risks have been addressed)",
+                        "coordinate": "AG44"
+                    }
+                }
+            },
+            {
+                "row_index": 44,
+                "content": {
+                    "I": {
+                        "value": 0,
+                        "coordinate": "I45"
+                    },
+                    "M": {
+                        "value": 0,
+                        "coordinate": "M45"
+                    },
+                    "O": {
+                        "value": 0,
+                        "coordinate": "O45"
+                    },
+                    "P": {
+                        "value": "A",
+                        "coordinate": "P45"
+                    },
+                    "Q": {
+                        "value": "[Please select]",
+                        "coordinate": "Q45"
+                    },
+                    "R": {
+                        "value": "[Please select]",
+                        "coordinate": "R45"
+                    },
+                    "S": {
+                        "value": "[Please select]",
+                        "coordinate": "S45"
+                    },
+                    "V": {
+                        "value": 0,
+                        "coordinate": "V45"
+                    },
+                    "X": {
+                        "value": "[Please Select]",
+                        "coordinate": "X45"
+                    },
+                    "Y": {
+                        "value": "[Please select]",
+                        "coordinate": "Y45"
+                    },
+                    "Z": {
+                        "value": "[Please select]",
+                        "coordinate": "Z45"
+                    }
+                }
+            },
+            {
+                "row_index": 45,
+                "content": {
+                    "I": {
+                        "value": 0,
+                        "coordinate": "I46"
+                    },
+                    "M": {
+                        "value": 0,
+                        "coordinate": "M46"
+                    },
+                    "O": {
+                        "value": 0,
+                        "coordinate": "O46"
+                    },
+                    "Q": {
+                        "value": "[Please select]",
+                        "coordinate": "Q46"
+                    },
+                    "R": {
+                        "value": "[Please select]",
+                        "coordinate": "R46"
+                    },
+                    "S": {
+                        "value": "[Please select]",
+                        "coordinate": "S46"
+                    },
+                    "V": {
+                        "value": 0,
+                        "coordinate": "V46"
+                    },
+                    "X": {
+                        "value": "[Please Select]",
+                        "coordinate": "X46"
+                    },
+                    "Y": {
+                        "value": "[Please select]",
+                        "coordinate": "Y46"
+                    },
+                    "Z": {
+                        "value": "[Please select]",
+                        "coordinate": "Z46"
+                    }
+                }
+            },
+            {
+                "row_index": 46,
+                "content": {
+                    "I": {
+                        "value": 0,
+                        "coordinate": "I47"
+                    },
+                    "M": {
+                        "value": 0,
+                        "coordinate": "M47"
+                    },
+                    "O": {
+                        "value": 0,
+                        "coordinate": "O47"
+                    },
+                    "Q": {
+                        "value": "[Please select]",
+                        "coordinate": "Q47"
+                    },
+                    "R": {
+                        "value": "[Please select]",
+                        "coordinate": "R47"
+                    },
+                    "S": {
+                        "value": "[Please select]",
+                        "coordinate": "S47"
+                    },
+                    "V": {
+                        "value": 0,
+                        "coordinate": "V47"
+                    },
+                    "X": {
+                        "value": "[Please Select]",
+                        "coordinate": "X47"
+                    },
+                    "Y": {
+                        "value": "[Please select]",
+                        "coordinate": "Y47"
+                    },
+                    "Z": {
+                        "value": "[Please select]",
+                        "coordinate": "Z47"
+                    }
+                }
+            },
+            {
+                "row_index": 47,
+                "content": {
+                    "I": {
+                        "value": 0,
+                        "coordinate": "I48"
+                    },
+                    "M": {
+                        "value": 0,
+                        "coordinate": "M48"
+                    },
+                    "O": {
+                        "value": 0,
+                        "coordinate": "O48"
+                    },
+                    "Q": {
+                        "value": "[Please select]",
+                        "coordinate": "Q48"
+                    },
+                    "R": {
+                        "value": "[Please select]",
+                        "coordinate": "R48"
+                    },
+                    "S": {
+                        "value": "[Please select]",
+                        "coordinate": "S48"
+                    },
+                    "V": {
+                        "value": 0,
+                        "coordinate": "V48"
+                    },
+                    "X": {
+                        "value": "[Please Select]",
+                        "coordinate": "X48"
+                    },
+                    "Y": {
+                        "value": "[Please select]",
+                        "coordinate": "Y48"
+                    },
+                    "Z": {
+                        "value": "[Please select]",
+                        "coordinate": "Z48"
+                    }
+                }
+            },
+            {
+                "row_index": 48,
+                "content": {
+                    "I": {
+                        "value": 0,
+                        "coordinate": "I49"
+                    },
+                    "M": {
+                        "value": 0,
+                        "coordinate": "M49"
+                    },
+                    "O": {
+                        "value": 0,
+                        "coordinate": "O49"
+                    },
+                    "Q": {
+                        "value": "[Please select]",
+                        "coordinate": "Q49"
+                    },
+                    "R": {
+                        "value": "[Please select]",
+                        "coordinate": "R49"
+                    },
+                    "S": {
+                        "value": "[Please select]",
+                        "coordinate": "S49"
+                    },
+                    "V": {
+                        "value": 0,
+                        "coordinate": "V49"
+                    },
+                    "X": {
+                        "value": "[Please Select]",
+                        "coordinate": "X49"
+                    },
+                    "Y": {
+                        "value": "[Please select]",
+                        "coordinate": "Y49"
+                    },
+                    "Z": {
+                        "value": "[Please select]",
+                        "coordinate": "Z49"
+                    }
+                }
+            },
+            {
+                "row_index": 49,
+                "content": {
+                    "B": {
+                        "value": "Total(s)",
+                        "coordinate": "B50"
+                    },
+                    "I": {
+                        "value": 0,
+                        "coordinate": "I50"
+                    }
+                }
+            },
+            {
+                "row_index": 51,
+                "content": {
+                    "B": {
+                        "value": "비고\nNotes",
+                        "coordinate": "B52"
+                    },
+                    "C": {
+                        "value": "조정항목설명 (미결제수표, 미달예금 등)\nReconciling\nitem \ndescription (outstanding check, deposit in transit, etc.)",
+                        "coordinate": "C52"
+                    },
+                    "D": {
+                        "value": "조정 항목 참고 번호\nReconciling\nitem \nreference\nnumber",
+                        "coordinate": "D52"
+                    },
+                    "E": {
+                        "value": "조정 항목 금액\nReconciling \nitem \namount",
+                        "coordinate": "E52"
+                    },
+                    "F": {
+                        "value": "조정 항목 일자\nReconciling \nitem \ndate",
+                        "coordinate": "F52"
+                    },
+                    "G": {
+                        "value": "은행의 당좌거래명세 (또는 근거문서) 상 처리된 일자\nDate cleared \nper bank statement (or supporting documentation)",
+                        "coordinate": "G52"
+                    },
+                    "H": {
+                        "value": "적절히 처리되었는가?\n(Y/N)\nCorrect treatment\n(Y/N)",
+                        "coordinate": "H52"
+                    },
+                    "I": {
+                        "value": "비고\nNotes",
+                        "coordinate": "I52"
+                    }
+                }
+            },
+            {
+                "row_index": 52,
+                "content": {
+                    "B": {
+                        "value": "A",
+                        "coordinate": "B53"
+                    }
+                }
+            }
+        ]
+    }
+}
