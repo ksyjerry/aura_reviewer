@@ -134,7 +134,20 @@ def convert_xlsm_folder_to_json(folder_path: str):
                 json.dump(result, json_file, ensure_ascii=False, indent=4)
 
 
-# 경로 생성기
+def extract_engagement_id(url: str) -> str:
+    """Aura URL에서 engagement ID를 추출 (#/ 다음부터 그 다음 / 전까지의 값)"""
+    try:
+        start = url.find('#/') + 2  # '#/' 다음 위치
+        if start > 1:  # '#/'를 찾은 경우
+            remaining = url[start:]  # '#/' 이후의 문자열
+            end = remaining.find('/')  # 다음 '/'의 위치
+            if end > 0:  # '/'를 찾은 경우
+                return remaining[:end]
+        raise ValueError("URL에서 engagement ID를 찾을 수 없습니다.")
+    except Exception as e:
+        print(f"Error: {str(e)}")
+        return None
+
 def making_excel_path(engagement_id):
     current_dir = os.getcwd()
     count_slash = 0
@@ -151,27 +164,14 @@ def making_excel_path(engagement_id):
     path = start_path + mid_path + end_path
     return path
 
+# 테스트 코드를 if __name__ == "__main__": 블록으로 이동
+if __name__ == "__main__":
+    # 사용 예시
+    url = "https://kr-platinum.aura.pwcglb.com/#/519f4020-66d2-4a70-96d5-b00fc2d0e9e0/execute/execute"
+    engagement_id = extract_engagement_id(url)
+    print(engagement_id)  # 출력: 519f4020-66d2-4a70-96d5-b00fc2d0e9e0
 
-def extract_engagement_id(url: str) -> str:
-    """Aura URL에서 engagement ID를 추출 (#/ 다음부터 그 다음 / 전까지의 값)"""
-    try:
-        start = url.find('#/') + 2  # '#/' 다음 위치
-        if start > 1:  # '#/'를 찾은 경우
-            remaining = url[start:]  # '#/' 이후의 문자열
-            end = remaining.find('/')  # 다음 '/'의 위치
-            if end > 0:  # '/'를 찾은 경우
-                return remaining[:end]
-        raise ValueError("URL에서 engagement ID를 찾을 수 없습니다.")
-    except Exception as e:
-        print(f"Error: {str(e)}")
-        return None
-
-# 사용 예시
-url = "https://kr-platinum.aura.pwcglb.com/#/519f4020-66d2-4a70-96d5-b00fc2d0e9e0/execute/execute"
-engagement_id = extract_engagement_id(url)
-print(engagement_id)  # 출력: 519f4020-66d2-4a70-96d5-b00fc2d0e9e0
-
-# 기존 코드에서 engagement_id 직접 할당 대신 이 함수 사용
-folder_path = making_excel_path(engagement_id)
-print(folder_path)
-convert_xlsm_folder_to_json(folder_path=folder_path)
+    # 기존 코드에서 engagement_id 직접 할당 대신 이 함수 사용
+    folder_path = making_excel_path(engagement_id)
+    print(folder_path)
+    convert_xlsm_folder_to_json(folder_path=folder_path)
