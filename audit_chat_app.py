@@ -57,7 +57,12 @@ def main():
     
     initialize_session_state()
     
-    st.title("📊 감사조서 리뷰 챗봇")
+    # 타이틀과 로고를 같은 줄에 배치
+    col1, col2 = st.columns([0.85, 0.15])
+    with col1:
+        st.title("📊 감사조서 리뷰 챗봇")
+    with col2:
+        st.image("C:/Users/jkim564/Documents/ai_apps/Audit Reviewer/Aura Review/PwC.jpg", width=100)
     
     chatbot = AuditReviewChatbot()
     

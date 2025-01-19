@@ -22,7 +22,7 @@ class ExcelDocumentQA:
             
     def _create_system_prompt(self, json_data: Dict) -> str:
         """시스템 프롬프트 생성"""
-        # 여러 파일 ��리를 위한 메타데이터 구성
+        # 여러 파일 리를 위한 메타데이터 구성
         if 'files_data' in json_data:
             # 여러 파일이 있는 경우
             files_info = "\n".join([
@@ -128,7 +128,15 @@ class ExcelDocumentQA:
             response = self.client.get_response(messages)
             
             # 스트림 응답을 하나의 문자열로 결합
-            full_response = ''.join(response)
+            full_response = ""
+            for chunk in response:
+                if isinstance(chunk, dict):
+                    if "error" in chunk:
+                        return f"오류: {chunk['error']}"
+                    elif "choices" in chunk and len(chunk["choices"]) > 0:
+                        content = chunk["choices"][0].get("delta", {}).get("content", "")
+                        full_response += content
+            
             return full_response
             
         except Exception as e:
@@ -139,7 +147,7 @@ def main():
     qa = ExcelDocumentQA()
     
     # JSON 파일 경로
-    json_path = "급여테스트.json"  # 또는 다른 JSON 파일 경로
+    json_path = "./workpaper/매출채권조서.json" # 또는 다른 JSON 파일 경로
     
     # 대화형 인터페이스
     print(f"\nJSON 파일 '{json_path}'에 대해 질문해주세요. (종료하려면 'quit' 입력)")
